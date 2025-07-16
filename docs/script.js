@@ -106,4 +106,40 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 添加搜索框提示
     searchInput.setAttribute('title', '按 Ctrl+K (或 Cmd+K) 快速搜索，按 ESC 清空搜索');
-}); 
+});
+
+// 复制代码功能
+function copyCode(button) {
+    const codeBlock = button.parentElement;
+    const code = codeBlock.querySelector('code').textContent;
+    
+    navigator.clipboard.writeText(code).then(() => {
+        // 临时改变按钮文本
+        const originalText = button.textContent;
+        button.textContent = '已复制!';
+        button.style.background = 'rgba(76, 175, 80, 0.8)';
+        
+        setTimeout(() => {
+            button.textContent = originalText;
+            button.style.background = 'rgba(255, 255, 255, 0.1)';
+        }, 2000);
+    }).catch(err => {
+        // 降级方案
+        const textArea = document.createElement('textarea');
+        textArea.value = code;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        
+        // 临时改变按钮文本
+        const originalText = button.textContent;
+        button.textContent = '已复制!';
+        button.style.background = 'rgba(76, 175, 80, 0.8)';
+        
+        setTimeout(() => {
+            button.textContent = originalText;
+            button.style.background = 'rgba(255, 255, 255, 0.1)';
+        }, 2000);
+    });
+} 
