@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon, IconProps } from '../components/Icon';
 
-export const Autolayout: React.FC<IconProps> = (props) => {
+export const AutoLayout: React.FC<IconProps> = (props) => {
   return (
     <Icon {...props}>
       <path d="M30.4 59.8333C30.3999 57.7161 28.6839 56.0001 26.5667 56H18.2333C16.1161 56.0001 14.4001 57.7161 14.4 59.8333V61.7667C14.4001 63.8839 16.1161 65.5999 18.2333 65.6H26.5667C28.6839 65.5999 30.3999 63.8839 30.4 61.7667V59.8333ZM36.8 61.7667C36.7999 67.4186 32.2186 71.9999 26.5667 72H18.2333C12.5814 71.9999 8.00014 67.4186 8 61.7667V59.8333C8.00014 54.1814 12.5814 49.6001 18.2333 49.6H26.5667C32.2186 49.6001 36.7999 54.1814 36.8 59.8333V61.7667Z" fill="black"/>
@@ -12,4 +12,4 @@ export const Autolayout: React.FC<IconProps> = (props) => {
   );
 };
 
-export default Autolayout;
+export default AutoLayout;

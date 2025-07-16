@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon, IconProps } from '../components/Icon';
 
-export const Addcontext: React.FC<IconProps> = (props) => {
+export const AddContext: React.FC<IconProps> = (props) => {
   return (
     <Icon {...props}>
       <path d="M65.6 40C65.6 25.5923 54.1579 14.4 39.9969 14.4C25.8611 14.4 14.4 25.8627 14.4 40.0031C14.4 41.7704 12.9673 43.2031 11.2 43.2031C9.43269 43.2031 8 41.7704 8 40.0031C8.00004 22.3295 22.3252 8 39.9969 8C57.6495 8.00004 72 22.0147 72 40C72 44.029 71.0669 47.6609 69.025 50.3687C66.9082 53.1757 63.7916 54.7156 60.1594 54.7156C53.6197 54.7153 48.3195 49.4177 48.3187 42.8781V29.2531C48.3187 27.4862 49.752 26.0538 51.5187 26.0531C53.286 26.0531 54.7187 27.4858 54.7187 29.2531V42.8781C54.7194 45.8831 57.1543 48.3153 60.1594 48.3156C61.8355 48.3156 63.0395 47.6775 63.9156 46.5156C64.8665 45.2545 65.6 43.1289 65.6 40Z" fill="black"/>
@@ -12,4 +12,4 @@ export const Addcontext: React.FC<IconProps> = (props) => {
   );
 };
 
-export default Addcontext;
+export default AddContext;

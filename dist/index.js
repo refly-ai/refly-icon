@@ -31,15 +31,16 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var src_exports = {};
 __export(src_exports, {
   Account: () => Account_default,
-  Addcontext: () => Addcontext_default,
+  AddContext: () => AddContext_default,
   Agent: () => Agent_default,
+  AiChat: () => AiChat_default,
   Appearance: () => Appearance_default,
   ArrowDown: () => ArrowDown_default,
   ArrowLeft: () => ArrowLeft_default,
   ArrowRight: () => ArrowRight_default,
   ArrowUp: () => ArrowUp_default,
   Attachment: () => Attachment_default,
-  Autolayout: () => Autolayout_default,
+  AutoLayout: () => AutoLayout_default,
   Back: () => Back_default,
   Building: () => Building_default,
   Cancelled: () => Cancelled_default,
@@ -125,6 +126,7 @@ __export(src_exports, {
   Undo: () => Undo_default,
   University: () => University_default,
   Upgrade: () => Upgrade_default,
+  Video: () => Video_default,
   Wait: () => Wait_default,
   Weather: () => Weather_default,
   Web: () => Web_default,
@@ -1127,9 +1129,9 @@ var ArrowUp = (props) => {
 };
 var ArrowUp_default = ArrowUp;
 
-// src/icons/Autolayout.tsx
+// src/icons/AutoLayout.tsx
 var import_jsx_runtime95 = require("react/jsx-runtime");
-var Autolayout = (props) => {
+var AutoLayout = (props) => {
   return /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)(Icon, { ...props, children: [
     /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("path", { d: "M30.4 59.8333C30.3999 57.7161 28.6839 56.0001 26.5667 56H18.2333C16.1161 56.0001 14.4001 57.7161 14.4 59.8333V61.7667C14.4001 63.8839 16.1161 65.5999 18.2333 65.6H26.5667C28.6839 65.5999 30.3999 63.8839 30.4 61.7667V59.8333ZM36.8 61.7667C36.7999 67.4186 32.2186 71.9999 26.5667 72H18.2333C12.5814 71.9999 8.00014 67.4186 8 61.7667V59.8333C8.00014 54.1814 12.5814 49.6001 18.2333 49.6H26.5667C32.2186 49.6001 36.7999 54.1814 36.8 59.8333V61.7667Z", fill: "black" }),
     /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("path", { d: "M65.6 18.2333C65.5999 16.1161 63.8839 14.4001 61.7667 14.4H53.4333C51.3161 14.4001 49.6001 16.1161 49.6 18.2333V20.1667C49.6001 22.2839 51.3161 23.9999 53.4333 24H61.7667C63.8839 23.9999 65.5999 22.2839 65.6 20.1667V18.2333ZM72 20.1667C71.9999 25.8186 67.4186 30.3999 61.7667 30.4H53.4333C47.7814 30.3999 43.2001 25.8186 43.2 20.1667V18.2333C43.2001 12.5814 47.7814 8.00014 53.4333 8H61.7667C67.4186 8.00014 71.9999 12.5814 72 18.2333V20.1667Z", fill: "black" }),
@@ -1137,7 +1139,7 @@ var Autolayout = (props) => {
     /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("path", { d: "M30.4 18.2333C30.3999 16.1161 28.6839 14.4001 26.5667 14.4H18.2333C16.1161 14.4001 14.4001 16.1161 14.4 18.2333V32.9667C14.4001 35.0839 16.1161 36.7999 18.2333 36.8H26.5667C28.6839 36.7999 30.3999 35.0839 30.4 32.9667V18.2333ZM36.8 32.9667C36.7999 38.6186 32.2186 43.1999 26.5667 43.2H18.2333C12.5814 43.1999 8.00014 38.6186 8 32.9667V18.2333C8.00014 12.5814 12.5814 8.00014 18.2333 8H26.5667C32.2186 8.00014 36.7999 12.5814 36.8 18.2333V32.9667Z", fill: "black" })
   ] });
 };
-var Autolayout_default = Autolayout;
+var AutoLayout_default = AutoLayout;
 
 // src/icons/Back.tsx
 var import_jsx_runtime96 = require("react/jsx-runtime");
@@ -1182,9 +1184,9 @@ var Claude = (props) => {
 };
 var Claude_default = Claude;
 
-// src/icons/Addcontext.tsx
+// src/icons/AddContext.tsx
 var import_jsx_runtime101 = require("react/jsx-runtime");
-var Addcontext = (props) => {
+var AddContext = (props) => {
   return /* @__PURE__ */ (0, import_jsx_runtime101.jsxs)(Icon, { ...props, children: [
     /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("path", { d: "M65.6 40C65.6 25.5923 54.1579 14.4 39.9969 14.4C25.8611 14.4 14.4 25.8627 14.4 40.0031C14.4 41.7704 12.9673 43.2031 11.2 43.2031C9.43269 43.2031 8 41.7704 8 40.0031C8.00004 22.3295 22.3252 8 39.9969 8C57.6495 8.00004 72 22.0147 72 40C72 44.029 71.0669 47.6609 69.025 50.3687C66.9082 53.1757 63.7916 54.7156 60.1594 54.7156C53.6197 54.7153 48.3195 49.4177 48.3187 42.8781V29.2531C48.3187 27.4862 49.752 26.0538 51.5187 26.0531C53.286 26.0531 54.7187 27.4858 54.7187 29.2531V42.8781C54.7194 45.8831 57.1543 48.3153 60.1594 48.3156C61.8355 48.3156 63.0395 47.6775 63.9156 46.5156C64.8665 45.2545 65.6 43.1289 65.6 40Z", fill: "black" }),
     /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("path", { d: "M54.4312 61.1438C55.8903 60.1482 57.8814 60.5229 58.8781 61.9813C59.8748 63.4407 59.5 65.4345 58.0406 66.4313C52.7363 70.0538 46.4481 72 40 72C37.3721 71.9999 34.8129 71.6816 32.3625 71.0813C30.6467 70.6602 29.5951 68.9286 30.0156 67.2125C30.4362 65.496 32.171 64.4451 33.8875 64.8656C35.8427 65.3446 37.8892 65.5999 40 65.6C45.1588 65.6 50.1893 64.0408 54.4312 61.1438Z", fill: "black" }),
@@ -1192,7 +1194,7 @@ var Addcontext = (props) => {
     /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("path", { d: "M16.0312 65.803V60.9717H11.2C9.43269 60.9717 8 59.539 8 57.7717C8.00023 56.0046 9.43283 54.5717 11.2 54.5717H16.0312V49.7405C16.0312 47.9732 17.4639 46.5405 19.2312 46.5405C20.998 46.5411 22.4312 47.9735 22.4312 49.7405V54.5717H27.2625C29.0297 54.5717 30.4623 56.0046 30.4625 57.7717C30.4625 59.539 29.0298 60.9717 27.2625 60.9717H22.4312V65.803C22.4312 67.5699 20.998 69.0023 19.2312 69.003C17.4639 69.003 16.0312 67.5703 16.0312 65.803Z", fill: "black" })
   ] });
 };
-var Addcontext_default = Addcontext;
+var AddContext_default = AddContext;
 
 // src/icons/Agent.tsx
 var import_jsx_runtime102 = require("react/jsx-runtime");
@@ -1205,18 +1207,43 @@ var Agent = (props) => {
   ] });
 };
 var Agent_default = Agent;
+
+// src/icons/AiChat.tsx
+var import_jsx_runtime103 = require("react/jsx-runtime");
+var AiChat = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime103.jsxs)(Icon, { ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime103.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M72.7217 17.5479C68.2774 16.1035 64.7677 12.5924 63.3306 8.14441C62.8392 6.61853 60.3086 6.61853 59.8172 8.14441C58.3801 12.5924 54.8704 16.1035 50.4261 17.5479C49.665 17.796 49.1478 18.5071 49.1478 19.3108C49.1478 20.1108 49.665 20.8218 50.4261 21.07C54.863 22.5107 58.3727 26.0402 59.8172 30.5105C60.061 31.2734 60.7741 31.7919 61.572 31.7919C62.3737 31.7919 63.0868 31.2734 63.3306 30.5105C64.7751 26.0402 68.2848 22.5107 72.7217 21.07C73.4828 20.8218 74 20.1108 74 19.3108C74 18.5071 73.4828 17.796 72.7217 17.5479Z", fill: "black" }),
+    /* @__PURE__ */ (0, import_jsx_runtime103.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M61.6894 40.3861L44.2038 34.6936L38.5292 17.168C38.0415 15.6495 36.6894 14.6681 35.0934 14.6681C33.4937 14.6681 32.1453 15.6495 31.6539 17.168L26.0273 34.6825L8.5085 40.3824C7.00857 40.8601 6 42.2453 6 43.8341C6 45.4193 7.00857 46.8044 8.50111 47.2785L25.9719 52.9413L31.6539 70.4964C32.1453 72.0148 33.4937 73 35.0934 73C36.6894 73 38.0415 72.0148 38.5292 70.4964L44.1631 52.982L61.6783 47.2822C63.1782 46.8044 64.1905 45.4193 64.1905 43.8341C64.1905 42.2453 63.1782 40.8601 61.6894 40.3861Z", fill: "black" })
+  ] });
+};
+var AiChat_default = AiChat;
+
+// src/icons/Video.tsx
+var import_jsx_runtime104 = require("react/jsx-runtime");
+var Video = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime104.jsxs)(Icon, { ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M27.1963 23.9619C27.3157 24.4024 27.7154 24.7082 28.1718 24.7082H36.8137C37.4824 24.7082 37.9678 24.0736 37.7893 23.4292C36.4711 18.6652 34.4213 11.1236 33.7752 8.74446C33.6557 8.30415 33.2565 8 32.8001 8H25.2224C24.8335 8 24.4582 8.02718 24.0883 8.06555C23.4755 8.12915 23.0728 8.73857 23.2338 9.33319L27.1963 23.9619Z", fill: "black" }),
+    /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M49.8161 8.74429C49.6966 8.30408 49.2974 8 48.8409 8H40.0674C39.3988 8 38.9144 8.63771 39.0939 9.28182L43.1861 23.9689C43.308 24.4059 43.7059 24.7082 44.1596 24.7082H52.8577C53.5263 24.7082 54.0117 24.0735 53.8332 23.429C52.5131 18.6616 50.4622 11.1227 49.8161 8.74429Z", fill: "black" }),
+    /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M59.2277 23.9684C59.3493 24.4054 59.7474 24.7077 60.2012 24.7077H69.6956C70.2585 24.7077 70.7153 24.2467 70.6836 23.6848C70.1803 14.8161 64.5251 8.77578 56.1346 8.087C55.4626 8.03182 54.9661 8.67344 55.1469 9.32304L59.2277 23.9684Z", fill: "black" }),
+    /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M20.841 24.7056C21.5066 24.7056 21.9904 24.0732 21.8164 23.4307L18.3559 10.6592C18.1931 10.0583 17.529 9.74427 16.9837 10.0446C12.3447 12.5997 9.41379 17.4288 9.05904 23.6826C9.02717 24.2445 9.48395 24.7056 10.0467 24.7056H20.841Z", fill: "black" }),
+    /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M37.731 40.9569C37.4076 40.8255 37.0977 40.7548 36.8181 40.7548C36.5722 40.7548 36.3499 40.8087 36.1747 40.9098C35.8479 41.0984 35.6458 41.4689 35.5751 42.0113C35.1776 45.5652 35.1776 49.3717 35.5818 53.2792C35.6189 53.5487 35.7469 54.1281 36.1612 54.3707C36.5183 54.5795 37.0909 54.5526 37.7411 54.2932C40.6819 53.1175 43.4845 51.3625 45.8459 49.2133C46.2333 48.8596 46.6948 48.2971 46.6914 47.6234C46.6914 46.9463 46.2333 46.3938 45.8527 46.0502C43.5014 43.9044 40.7728 42.1932 37.731 40.9569Z", fill: "black" }),
+    /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M49.2445 52.9506C46.4385 55.5006 43.1137 57.5858 39.6204 58.9837C38.6469 59.3745 37.6767 59.5699 36.7436 59.5699C35.6185 59.5699 34.5473 59.2869 33.594 58.7244C31.9098 57.7306 30.8319 55.9992 30.5624 53.8534C30.1144 49.5315 30.1177 45.3611 30.559 41.403C30.8454 39.2303 31.9401 37.519 33.6513 36.532C35.413 35.5181 37.5993 35.4339 39.6541 36.2861C43.2316 37.738 46.4654 39.7693 49.2479 42.3092C50.8479 43.7543 51.7406 45.6374 51.744 47.608C51.7507 49.582 50.8614 51.4785 49.2445 52.9506ZM10.0106 29.7577C9.45244 29.7577 9 30.2102 9 30.7683V55.0223C9 65.1786 15.5216 72 25.2232 72H54.513C64.2213 72 70.7395 65.1786 70.7395 55.0223V30.7683C70.7395 30.2102 70.2871 29.7577 69.7289 29.7577H10.0106Z", fill: "black" })
+  ] });
+};
+var Video_default = Video;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Account,
-  Addcontext,
+  AddContext,
   Agent,
+  AiChat,
   Appearance,
   ArrowDown,
   ArrowLeft,
   ArrowRight,
   ArrowUp,
   Attachment,
-  Autolayout,
+  AutoLayout,
   Back,
   Building,
   Cancelled,
@@ -1302,6 +1329,7 @@ var Agent_default = Agent;
   Undo,
   University,
   Upgrade,
+  Video,
   Wait,
   Weather,
   Web,

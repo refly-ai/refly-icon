@@ -193,7 +193,7 @@ declare const ArrowRight: React.FC<IconProps>;
 
 declare const ArrowUp: React.FC<IconProps>;
 
-declare const Autolayout: React.FC<IconProps>;
+declare const AutoLayout: React.FC<IconProps>;
 
 declare const Back: React.FC<IconProps>;
 
@@ -205,8 +205,12 @@ declare const Checked: React.FC<IconProps>;
 
 declare const Claude: React.FC<IconProps>;
 
-declare const Addcontext: React.FC<IconProps>;
+declare const AddContext: React.FC<IconProps>;
 
 declare const Agent: React.FC<IconProps>;
 
-export { Account, Addcontext, Agent, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Attachment, Autolayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Code, Code1, Community, Completed, Computer, Copy, Creadit, Data, Delete, Delivery, DesignPattern, Download, Edit, EditSmart, Finder, Flow, FreeCreation, Fullscreen, Game, Gemini, Hamburger, History, Icon, IconProps, InputContext, InterfaceDark, InterfaceLight, Jump, Knowledge, KnowledgeBase, Labs, Language, LargeModel, Logic, Mail, Map, Markdown, ModelProvider, More, Mouse, NewConversation, Note, Note1, Output, Page, Parse, Pending, Play, Project, ProjectItem, Question, Redo, Reference, Refly, Reload, Reloadto, Resource, Running, ScreenDefault, ScreenFull, Search, Security, Setting, Settings, Share, SideLeft, SideRight, Sport, Start, SubNode, Subscription, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Wait, Weather, Web, Web1, Wiki, ZoomIn, ZoomOut };
+declare const AiChat: React.FC<IconProps>;
+
+declare const Video: React.FC<IconProps>;
+
+export { Account, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Attachment, AutoLayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Code, Code1, Community, Completed, Computer, Copy, Creadit, Data, Delete, Delivery, DesignPattern, Download, Edit, EditSmart, Finder, Flow, FreeCreation, Fullscreen, Game, Gemini, Hamburger, History, Icon, IconProps, InputContext, InterfaceDark, InterfaceLight, Jump, Knowledge, KnowledgeBase, Labs, Language, LargeModel, Logic, Mail, Map, Markdown, ModelProvider, More, Mouse, NewConversation, Note, Note1, Output, Page, Parse, Pending, Play, Project, ProjectItem, Question, Redo, Reference, Refly, Reload, Reloadto, Resource, Running, ScreenDefault, ScreenFull, Search, Security, Setting, Settings, Share, SideLeft, SideRight, Sport, Start, SubNode, Subscription, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Video, Wait, Weather, Web, Web1, Wiki, ZoomIn, ZoomOut };
