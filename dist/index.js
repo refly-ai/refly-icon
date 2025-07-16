@@ -31,7 +31,8 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var src_exports = {};
 __export(src_exports, {
   Account: () => Account_default,
-  AddContext: () => AddContext_default,
+  Add: () => Add_default,
+  Addcontext: () => Addcontext_default,
   Agent: () => Agent_default,
   AiChat: () => AiChat_default,
   Appearance: () => Appearance_default,
@@ -40,7 +41,7 @@ __export(src_exports, {
   ArrowRight: () => ArrowRight_default,
   ArrowUp: () => ArrowUp_default,
   Attachment: () => Attachment_default,
-  AutoLayout: () => AutoLayout_default,
+  Autolayout: () => Autolayout_default,
   Back: () => Back_default,
   Building: () => Building_default,
   Cancelled: () => Cancelled_default,
@@ -1129,9 +1130,9 @@ var ArrowUp = (props) => {
 };
 var ArrowUp_default = ArrowUp;
 
-// src/icons/AutoLayout.tsx
+// src/icons/Autolayout.tsx
 var import_jsx_runtime95 = require("react/jsx-runtime");
-var AutoLayout = (props) => {
+var Autolayout = (props) => {
   return /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)(Icon, { ...props, children: [
     /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("path", { d: "M30.4 59.8333C30.3999 57.7161 28.6839 56.0001 26.5667 56H18.2333C16.1161 56.0001 14.4001 57.7161 14.4 59.8333V61.7667C14.4001 63.8839 16.1161 65.5999 18.2333 65.6H26.5667C28.6839 65.5999 30.3999 63.8839 30.4 61.7667V59.8333ZM36.8 61.7667C36.7999 67.4186 32.2186 71.9999 26.5667 72H18.2333C12.5814 71.9999 8.00014 67.4186 8 61.7667V59.8333C8.00014 54.1814 12.5814 49.6001 18.2333 49.6H26.5667C32.2186 49.6001 36.7999 54.1814 36.8 59.8333V61.7667Z", fill: "black" }),
     /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("path", { d: "M65.6 18.2333C65.5999 16.1161 63.8839 14.4001 61.7667 14.4H53.4333C51.3161 14.4001 49.6001 16.1161 49.6 18.2333V20.1667C49.6001 22.2839 51.3161 23.9999 53.4333 24H61.7667C63.8839 23.9999 65.5999 22.2839 65.6 20.1667V18.2333ZM72 20.1667C71.9999 25.8186 67.4186 30.3999 61.7667 30.4H53.4333C47.7814 30.3999 43.2001 25.8186 43.2 20.1667V18.2333C43.2001 12.5814 47.7814 8.00014 53.4333 8H61.7667C67.4186 8.00014 71.9999 12.5814 72 18.2333V20.1667Z", fill: "black" }),
@@ -1139,7 +1140,7 @@ var AutoLayout = (props) => {
     /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("path", { d: "M30.4 18.2333C30.3999 16.1161 28.6839 14.4001 26.5667 14.4H18.2333C16.1161 14.4001 14.4001 16.1161 14.4 18.2333V32.9667C14.4001 35.0839 16.1161 36.7999 18.2333 36.8H26.5667C28.6839 36.7999 30.3999 35.0839 30.4 32.9667V18.2333ZM36.8 32.9667C36.7999 38.6186 32.2186 43.1999 26.5667 43.2H18.2333C12.5814 43.1999 8.00014 38.6186 8 32.9667V18.2333C8.00014 12.5814 12.5814 8.00014 18.2333 8H26.5667C32.2186 8.00014 36.7999 12.5814 36.8 18.2333V32.9667Z", fill: "black" })
   ] });
 };
-var AutoLayout_default = AutoLayout;
+var Autolayout_default = Autolayout;
 
 // src/icons/Back.tsx
 var import_jsx_runtime96 = require("react/jsx-runtime");
@@ -1184,9 +1185,9 @@ var Claude = (props) => {
 };
 var Claude_default = Claude;
 
-// src/icons/AddContext.tsx
+// src/icons/Addcontext.tsx
 var import_jsx_runtime101 = require("react/jsx-runtime");
-var AddContext = (props) => {
+var Addcontext = (props) => {
   return /* @__PURE__ */ (0, import_jsx_runtime101.jsxs)(Icon, { ...props, children: [
     /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("path", { d: "M65.6 40C65.6 25.5923 54.1579 14.4 39.9969 14.4C25.8611 14.4 14.4 25.8627 14.4 40.0031C14.4 41.7704 12.9673 43.2031 11.2 43.2031C9.43269 43.2031 8 41.7704 8 40.0031C8.00004 22.3295 22.3252 8 39.9969 8C57.6495 8.00004 72 22.0147 72 40C72 44.029 71.0669 47.6609 69.025 50.3687C66.9082 53.1757 63.7916 54.7156 60.1594 54.7156C53.6197 54.7153 48.3195 49.4177 48.3187 42.8781V29.2531C48.3187 27.4862 49.752 26.0538 51.5187 26.0531C53.286 26.0531 54.7187 27.4858 54.7187 29.2531V42.8781C54.7194 45.8831 57.1543 48.3153 60.1594 48.3156C61.8355 48.3156 63.0395 47.6775 63.9156 46.5156C64.8665 45.2545 65.6 43.1289 65.6 40Z", fill: "black" }),
     /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("path", { d: "M54.4312 61.1438C55.8903 60.1482 57.8814 60.5229 58.8781 61.9813C59.8748 63.4407 59.5 65.4345 58.0406 66.4313C52.7363 70.0538 46.4481 72 40 72C37.3721 71.9999 34.8129 71.6816 32.3625 71.0813C30.6467 70.6602 29.5951 68.9286 30.0156 67.2125C30.4362 65.496 32.171 64.4451 33.8875 64.8656C35.8427 65.3446 37.8892 65.5999 40 65.6C45.1588 65.6 50.1893 64.0408 54.4312 61.1438Z", fill: "black" }),
@@ -1194,7 +1195,7 @@ var AddContext = (props) => {
     /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("path", { d: "M16.0312 65.803V60.9717H11.2C9.43269 60.9717 8 59.539 8 57.7717C8.00023 56.0046 9.43283 54.5717 11.2 54.5717H16.0312V49.7405C16.0312 47.9732 17.4639 46.5405 19.2312 46.5405C20.998 46.5411 22.4312 47.9735 22.4312 49.7405V54.5717H27.2625C29.0297 54.5717 30.4623 56.0046 30.4625 57.7717C30.4625 59.539 29.0298 60.9717 27.2625 60.9717H22.4312V65.803C22.4312 67.5699 20.998 69.0023 19.2312 69.003C17.4639 69.003 16.0312 67.5703 16.0312 65.803Z", fill: "black" })
   ] });
 };
-var AddContext_default = AddContext;
+var Addcontext_default = Addcontext;
 
 // src/icons/Agent.tsx
 var import_jsx_runtime102 = require("react/jsx-runtime");
@@ -1231,10 +1232,18 @@ var Video = (props) => {
   ] });
 };
 var Video_default = Video;
+
+// src/icons/Add.tsx
+var import_jsx_runtime105 = require("react/jsx-runtime");
+var Add = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime105.jsx)("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M40 10C42.367 10 44.2857 11.9188 44.2857 14.2857V35.7143H65.7143C68.0813 35.7143 70 37.633 70 40C70 42.367 68.0813 44.2857 65.7143 44.2857H44.2857V65.7143C44.2857 68.0813 42.367 70 40 70C37.633 70 35.7143 68.0813 35.7143 65.7143V44.2857H14.2857C11.9188 44.2857 10 42.367 10 40C10 37.633 11.9188 35.7143 14.2857 35.7143H35.7143V14.2857C35.7143 11.9188 37.633 10 40 10Z", fill: "black" }) });
+};
+var Add_default = Add;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Account,
-  AddContext,
+  Add,
+  Addcontext,
   Agent,
   AiChat,
   Appearance,
@@ -1243,7 +1252,7 @@ var Video_default = Video;
   ArrowRight,
   ArrowUp,
   Attachment,
-  AutoLayout,
+  Autolayout,
   Back,
   Building,
   Cancelled,

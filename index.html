@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refly Icons - 图标库</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Refly Icons</h1>
+            <p style="font-size: 14px; color: #666;">一个可定制的 SVG React 图标组件库</p>
+        </header>
+        
+        <section class="usage-section">
+            <div class="usage-container">
+                <div class="usage-card">
+                    <h3>安装</h3>
+                    <div class="code-block">
+                        <pre><code>npm install refly-icons
+# 或
+yarn add refly-icons</code></pre>
+                        <button class="copy-btn" onclick="copyCode(this)">复制</button>
+                    </div>
+                </div>
+                
+                <div class="usage-card">
+                    <h3>使用方法</h3>
+                    <div class="code-block">
+                        <pre><code>import { Language, Account, Resource } from 'refly-icons';
+
+export default () => (
+  &lt;div&gt;
+    &lt;Language size={32} color="red" /&gt;
+    &lt;Account size={40} color="#00f" /&gt;
+    &lt;Resource size={24} color="currentColor" /&gt;
+  &lt;/div&gt;
+);</code></pre>
+                        <button class="copy-btn" onclick="copyCode(this)">复制</button>
+                    </div>
+                    <div class="attributes">
+                        <p><strong>size</strong>: 图标宽高，支持数字或字符串 (如 24、'2em')</p>
+                        <p><strong>color</strong>: 图标颜色，支持任意 CSS 颜色值</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <main class="main">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="搜索图标..." class="search-input">
+            </div>
+            <div id="iconsGrid" class="icons-grid">
+                <!-- 图标将通过 JavaScript 动态加载 -->
+            </div>
+        </main>
+        
+        <div id="toast" class="toast"></div>
+    </div>
+    
+    <script src="icons-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
