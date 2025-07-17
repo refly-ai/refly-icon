@@ -213,4 +213,64 @@ declare const AiChat: React.FC<IconProps>;
 
 declare const Video: React.FC<IconProps>;
 
-export { Account, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Attachment, AutoLayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Code, Code1, Community, Completed, Computer, Copy, Creadit, Data, Delete, Delivery, DesignPattern, Download, Edit, EditSmart, Finder, Flow, FreeCreation, Fullscreen, Game, Gemini, Hamburger, History, Icon, IconProps, InputContext, InterfaceDark, InterfaceLight, Jump, Knowledge, KnowledgeBase, Labs, Language, LargeModel, Logic, Mail, Map, Markdown, ModelProvider, More, Mouse, NewConversation, Note, Note1, Output, Page, Parse, Pending, Play, Project, ProjectItem, Question, Redo, Reference, Refly, Reload, Reloadto, Resource, Running, ScreenDefault, ScreenFull, Search, Security, Setting, Settings, Share, SideLeft, SideRight, Sport, Start, SubNode, Subscription, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Video, Wait, Weather, Web, Web1, Wiki, ZoomIn, ZoomOut };
+declare const Add: React.FC<IconProps>;
+
+declare const At: React.FC<IconProps>;
+
+declare const Audio: React.FC<IconProps>;
+
+declare const Close: React.FC<IconProps>;
+
+declare const Cuttools: React.FC<IconProps>;
+
+declare const Deepseek: React.FC<IconProps>;
+
+declare const Doc: React.FC<IconProps>;
+
+declare const Doc1: React.FC<IconProps>;
+
+declare const Excel: React.FC<IconProps>;
+
+declare const File: React.FC<IconProps>;
+
+declare const File1: React.FC<IconProps>;
+
+declare const GeneralFile: React.FC<IconProps>;
+
+declare const GeneralWeb: React.FC<IconProps>;
+
+declare const Github: React.FC<IconProps>;
+
+declare const Google: React.FC<IconProps>;
+
+declare const Gpt: React.FC<IconProps>;
+
+declare const Grok: React.FC<IconProps>;
+
+declare const Html: React.FC<IconProps>;
+
+declare const Image: React.FC<IconProps>;
+
+declare const Mcp: React.FC<IconProps>;
+
+declare const Mcp1: React.FC<IconProps>;
+
+declare const Media: React.FC<IconProps>;
+
+declare const Pdf: React.FC<IconProps>;
+
+declare const Ppt: React.FC<IconProps>;
+
+declare const Ppt1: React.FC<IconProps>;
+
+declare const Send: React.FC<IconProps>;
+
+declare const Sort: React.FC<IconProps>;
+
+declare const Stop: React.FC<IconProps>;
+
+declare const Text: React.FC<IconProps>;
+
+declare const Websearch: React.FC<IconProps>;
+
+export { Account, Add, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, At, Attachment, Audio, AutoLayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Close, Code, Code1, Community, Completed, Computer, Copy, Creadit, Cuttools, Data, Deepseek, Delete, Delivery, DesignPattern, Doc, Doc1, Download, Edit, EditSmart, Excel, File, File1, Finder, Flow, FreeCreation, Fullscreen, Game, Gemini, GeneralFile, GeneralWeb, Github, Google, Gpt, Grok, Hamburger, History, Html, Icon, IconProps, Image, InputContext, InterfaceDark, InterfaceLight, Jump, Knowledge, KnowledgeBase, Labs, Language, LargeModel, Logic, Mail, Map, Markdown, Mcp, Mcp1, Media, ModelProvider, More, Mouse, NewConversation, Note, Note1, Output, Page, Parse, Pdf, Pending, Play, Ppt, Ppt1, Project, ProjectItem, Question, Redo, Reference, Refly, Reload, Reloadto, Resource, Running, ScreenDefault, ScreenFull, Search, Security, Send, Setting, Settings, Share, SideLeft, SideRight, Sort, Sport, Start, Stop, SubNode, Subscription, Text, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Video, Wait, Weather, Web, Web1, Websearch, Wiki, ZoomIn, ZoomOut };
