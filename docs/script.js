@@ -24,8 +24,11 @@ document.addEventListener('DOMContentLoaded', function() {
         icons.forEach(icon => {
             const iconCard = document.createElement('div');
             iconCard.className = 'icon-card';
+            // 检查是否为outline图标（包含stroke属性）
+            const isOutlineIcon = icon.svg.includes('stroke=');
+            
             iconCard.innerHTML = `
-                <svg class="icon-svg" viewBox="0 0 80 80" fill="currentColor">
+                <svg class="icon-svg" viewBox="0 0 80 80" ${isOutlineIcon ? 'fill="none"' : 'fill="currentColor"'}>
                     ${icon.svg}
                 </svg>
                 <div class="icon-name">${icon.name}</div>

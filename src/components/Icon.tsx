@@ -24,10 +24,21 @@ export const Icon: React.FC<IconProps> = ({
     >
       {React.Children.map(children, (child) => {
         if (React.isValidElement(child)) {
-          return React.cloneElement(child, {
-            ...child.props,
-            fill: color,
-          });
+          // if stroke is undefined, it means it's a fill icon
+          const hasStroke = child.props.stroke !== undefined;
+          
+          if (hasStroke) {
+            return React.cloneElement(child, {
+              ...child.props,
+              fill: 'none',
+              stroke: color,
+            });
+          } else {
+            return React.cloneElement(child, {
+              ...child.props,
+              fill: color,
+            });
+          }
         }
         return child;
       })}

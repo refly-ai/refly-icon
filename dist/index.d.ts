@@ -249,28 +249,102 @@ declare const Grok: React.FC<IconProps>;
 
 declare const Html: React.FC<IconProps>;
 
-declare const Image: React.FC<IconProps>;
+declare const WinRight: React.FC<IconProps>;
+
+declare const WinLeft: React.FC<IconProps>;
+
+declare const View: React.FC<IconProps>;
+
+declare const Usage: React.FC<IconProps>;
+
+declare const Tag: React.FC<IconProps>;
+
+declare const Remix: React.FC<IconProps>;
+
+declare const Preview: React.FC<IconProps>;
+
+declare const Magiccursor: React.FC<IconProps>;
+
+declare const MagiccursorDefault: React.FC<IconProps>;
+
+declare const Location: React.FC<IconProps>;
+
+declare const List: React.FC<IconProps>;
+
+declare const Keyboard: React.FC<IconProps>;
+
+declare const Invite: React.FC<IconProps>;
+
+declare const Group: React.FC<IconProps>;
+
+declare const Fold: React.FC<IconProps>;
+
+declare const FinderOpen: React.FC<IconProps>;
+
+declare const FinderClose: React.FC<IconProps>;
+
+declare const Export: React.FC<IconProps>;
+
+declare const DocInline: React.FC<IconProps>;
+
+declare const Creation: React.FC<IconProps>;
+
+declare const Finished: React.FC<IconProps>;
+
+declare const TextFile: React.FC<IconProps>;
+
+declare const PptFile: React.FC<IconProps>;
+
+declare const OrgFile: React.FC<IconProps>;
+
+declare const CodeZip: React.FC<IconProps>;
+
+declare const Generating: React.FC<IconProps>;
+
+declare const Edit1: React.FC<IconProps>;
+
+declare const Market: React.FC<IconProps>;
+
+declare const Provider: React.FC<IconProps>;
+
+declare const AIModel: React.FC<IconProps>;
+
+declare const Ppt: React.FC<IconProps>;
+
+declare const Exit: React.FC<IconProps>;
+
+declare const Contact: React.FC<IconProps>;
+
+declare const Websearch: React.FC<IconProps>;
+
+declare const Text: React.FC<IconProps>;
+
+declare const Stop: React.FC<IconProps>;
+
+declare const Sort: React.FC<IconProps>;
+
+declare const Send: React.FC<IconProps>;
+
+declare const Ppt1: React.FC<IconProps>;
+
+declare const Pdf: React.FC<IconProps>;
+
+declare const Media: React.FC<IconProps>;
 
 declare const Mcp: React.FC<IconProps>;
 
 declare const Mcp1: React.FC<IconProps>;
 
-declare const Media: React.FC<IconProps>;
+declare const Image: React.FC<IconProps>;
 
-declare const Pdf: React.FC<IconProps>;
+declare const Running1: React.FC<IconProps>;
 
-declare const Ppt: React.FC<IconProps>;
+declare const Email: React.FC<IconProps>;
 
-declare const Ppt1: React.FC<IconProps>;
+declare const Subline: React.FC<IconProps>;
 
-declare const Send: React.FC<IconProps>;
+declare const Refresh: React.FC<IconProps>;
 
-declare const Sort: React.FC<IconProps>;
+declare const Doc2: React.FC<IconProps>;
 
-declare const Stop: React.FC<IconProps>;
-
-declare const Text: React.FC<IconProps>;
-
-declare const Websearch: React.FC<IconProps>;
-
-export { Account, Add, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, At, Attachment, Audio, AutoLayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Close, Code, Code1, Community, Completed, Computer, Copy, Creadit, Cuttools, Data, Deepseek, Delete, Delivery, DesignPattern, Doc, Doc1, Download, Edit, EditSmart, Excel, File, File1, Finder, Flow, FreeCreation, Fullscreen, Game, Gemini, GeneralFile, GeneralWeb, Github, Google, Gpt, Grok, Hamburger, History, Html, Icon, IconProps, Image, InputContext, InterfaceDark, InterfaceLight, Jump, Knowledge, KnowledgeBase, Labs, Language, LargeModel, Logic, Mail, Map, Markdown, Mcp, Mcp1, Media, ModelProvider, More, Mouse, NewConversation, Note, Note1, Output, Page, Parse, Pdf, Pending, Play, Ppt, Ppt1, Project, ProjectItem, Question, Redo, Reference, Refly, Reload, Reloadto, Resource, Running, ScreenDefault, ScreenFull, Search, Security, Send, Setting, Settings, Share, SideLeft, SideRight, Sort, Sport, Start, Stop, SubNode, Subscription, Text, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Video, Wait, Weather, Web, Web1, Websearch, Wiki, ZoomIn, ZoomOut };
+export { AIModel, Account, Add, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, At, Attachment, Audio, AutoLayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Close, Code, Code1, CodeZip, Community, Completed, Computer, Contact, Copy, Creadit, Creation, Cuttools, Data, Deepseek, Delete, Delivery, DesignPattern, Doc, Doc1, Doc2, DocInline, Download, Edit, Edit1, EditSmart, Email, Excel, Exit, Export, File, File1, Finder, FinderClose, FinderOpen, Finished, Flow, Fold, FreeCreation, Fullscreen, Game, Gemini, GeneralFile, GeneralWeb, Generating, Github, Google, Gpt, Grok, Group, Hamburger, History, Html, Icon, IconProps, Image, InputContext, InterfaceDark, InterfaceLight, Invite, Jump, Keyboard, Knowledge, KnowledgeBase, Labs, Language, LargeModel, List, Location, Logic, Magiccursor, MagiccursorDefault, Mail, Map, Markdown, Market, Mcp, Mcp1, Media, ModelProvider, More, Mouse, NewConversation, Note, Note1, OrgFile, Output, Page, Parse, Pdf, Pending, Play, Ppt, Ppt1, PptFile, Preview, Project, ProjectItem, Provider, Question, Redo, Reference, Refly, Refresh, Reload, Reloadto, Remix, Resource, Running, Running1, ScreenDefault, ScreenFull, Search, Security, Send, Setting, Settings, Share, SideLeft, SideRight, Sort, Sport, Start, Stop, SubNode, Subline, Subscription, Tag, Text, TextFile, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Usage, Video, View, Wait, Weather, Web, Web1, Websearch, Wiki, WinLeft, WinRight, ZoomIn, ZoomOut };
