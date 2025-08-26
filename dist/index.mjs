@@ -20,13 +20,11 @@ var Icon = ({
       children: React.Children.map(children, (child) => {
         if (React.isValidElement(child)) {
           const hasStroke = child.props.stroke !== void 0;
-          console.log("hasStroke", hasStroke);
           if (hasStroke) {
             return React.cloneElement(child, {
               ...child.props,
               fill: "none",
               stroke: color
-              // 用color控制线条颜色
             });
           } else {
             return React.cloneElement(child, {

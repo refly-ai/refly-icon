@@ -226,13 +226,11 @@ var Icon = ({
       children: import_react.default.Children.map(children, (child) => {
         if (import_react.default.isValidElement(child)) {
           const hasStroke = child.props.stroke !== void 0;
-          console.log("hasStroke", hasStroke);
           if (hasStroke) {
             return import_react.default.cloneElement(child, {
               ...child.props,
               fill: "none",
               stroke: color
-              // 用color控制线条颜色
             });
           } else {
             return import_react.default.cloneElement(child, {
