@@ -174,9 +174,10 @@ export { default as Mcp } from './icons/Mcp';
 export { default as Mcp1 } from './icons/Mcp1';
 export { default as Image } from './icons/Image';
 
-// 新增的5个图标组件
 export { default as Running1 } from './icons/Running1';
 export { default as Email } from './icons/Email';
 export { default as Subline } from './icons/Subline';
 export { default as Refresh } from './icons/Refresh';
 export { default as Doc2 } from './icons/Doc2';
+export { default as Text1 } from './icons/Text1';
+export { default as X } from './icons/X';
