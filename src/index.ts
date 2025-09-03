@@ -29,6 +29,7 @@ export { default as Reference } from "./icons/Reference";
 export { default as Pending } from "./icons/Pending";
 export { default as Thinking } from "./icons/Thinking";
 export { default as Play } from "./icons/Play";
+export { default as PlayOutline } from "./icons/PlayOutline";
 export { default as Data } from "./icons/Data";
 export { default as NewConversation } from "./icons/NewConversation";
 export { default as ModelProvider } from "./icons/ModelProvider";
