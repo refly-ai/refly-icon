@@ -59,6 +59,8 @@ declare const Thinking: React.FC<IconProps>;
 
 declare const Play: React.FC<IconProps>;
 
+declare const PlayOutline: React.FC<IconProps>;
+
 declare const Data: React.FC<IconProps>;
 
 declare const NewConversation: React.FC<IconProps>;
@@ -337,6 +339,8 @@ declare const Mcp1: React.FC<IconProps>;
 
 declare const Image: React.FC<IconProps>;
 
+declare const ImageOutline: React.FC<IconProps>;
+
 declare const Running1: React.FC<IconProps>;
 
 declare const Email: React.FC<IconProps>;
@@ -353,4 +357,4 @@ declare const X: React.FC<IconProps>;
 
 declare const XBorder: React.FC<IconProps>;
 
-export { AIModel, Account, Add, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, At, Attachment, Audio, AutoLayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Close, Code, Code1, CodeZip, Community, Completed, Computer, Contact, Copy, Creadit, Creation, Cuttools, Data, Deepseek, Delete, Delivery, DesignPattern, Doc, Doc1, Doc2, DocInline, Download, Edit, Edit1, EditSmart, Email, Excel, Exit, Export, File, File1, Finder, FinderClose, FinderOpen, Finished, Flow, Fold, FreeCreation, Fullscreen, Game, Gemini, GeneralFile, GeneralWeb, Generating, Github, Google, Gpt, Grok, Group, Hamburger, History, Html, Icon, IconProps, Image, InputContext, InterfaceDark, InterfaceLight, Invite, Jump, Keyboard, Knowledge, KnowledgeBase, Labs, Language, LargeModel, List, Location, Logic, Magiccursor, MagiccursorDefault, Mail, Map, Markdown, Market, Mcp, Mcp1, Media, ModelProvider, More, Mouse, NewConversation, Note, Note1, OrgFile, Output, Page, Parse, Pdf, Pending, Play, Ppt, Ppt1, PptFile, Preview, Project, ProjectItem, Provider, Question, Redo, Reference, Refly, Refresh, Reload, Reloadto, Remix, Resource, Running, Running1, ScreenDefault, ScreenFull, Search, Security, Send, Setting, Settings, Share, SideLeft, SideRight, Sort, Sport, Start, Stop, SubNode, Subline, Subscription, Tag, Text, Text1, TextFile, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Usage, Video, View, Wait, Weather, Web, Web1, Websearch, Wiki, WinLeft, WinRight, X, XBorder, ZoomIn, ZoomOut };
+export { AIModel, Account, Add, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, At, Attachment, Audio, AutoLayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Close, Code, Code1, CodeZip, Community, Completed, Computer, Contact, Copy, Creadit, Creation, Cuttools, Data, Deepseek, Delete, Delivery, DesignPattern, Doc, Doc1, Doc2, DocInline, Download, Edit, Edit1, EditSmart, Email, Excel, Exit, Export, File, File1, Finder, FinderClose, FinderOpen, Finished, Flow, Fold, FreeCreation, Fullscreen, Game, Gemini, GeneralFile, GeneralWeb, Generating, Github, Google, Gpt, Grok, Group, Hamburger, History, Html, Icon, IconProps, Image, ImageOutline, InputContext, InterfaceDark, InterfaceLight, Invite, Jump, Keyboard, Knowledge, KnowledgeBase, Labs, Language, LargeModel, List, Location, Logic, Magiccursor, MagiccursorDefault, Mail, Map, Markdown, Market, Mcp, Mcp1, Media, ModelProvider, More, Mouse, NewConversation, Note, Note1, OrgFile, Output, Page, Parse, Pdf, Pending, Play, PlayOutline, Ppt, Ppt1, PptFile, Preview, Project, ProjectItem, Provider, Question, Redo, Reference, Refly, Refresh, Reload, Reloadto, Remix, Resource, Running, Running1, ScreenDefault, ScreenFull, Search, Security, Send, Setting, Settings, Share, SideLeft, SideRight, Sort, Sport, Start, Stop, SubNode, Subline, Subscription, Tag, Text, Text1, TextFile, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Usage, Video, View, Wait, Weather, Web, Web1, Websearch, Wiki, WinLeft, WinRight, X, XBorder, ZoomIn, ZoomOut };

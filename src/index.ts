@@ -173,6 +173,7 @@ export { default as Media } from "./icons/Media";
 export { default as Mcp } from "./icons/Mcp";
 export { default as Mcp1 } from "./icons/Mcp1";
 export { default as Image } from "./icons/Image";
+export { default as ImageOutline } from "./icons/ImageOutline";
 
 export { default as Running1 } from "./icons/Running1";
 export { default as Email } from "./icons/Email";
