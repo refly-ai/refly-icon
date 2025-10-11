@@ -183,3 +183,5 @@ export { default as Doc2 } from "./icons/Doc2";
 export { default as Text1 } from "./icons/Text1";
 export { default as X } from "./icons/X";
 export { default as XBorder } from "./icons/XBorder";
+export { default as SortAsc } from "./icons/SortAsc";
+export { default as DocAdd } from "./icons/DocAdd";
