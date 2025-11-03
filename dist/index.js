@@ -73,12 +73,14 @@ __export(src_exports, {
   Doc1: () => Doc1_default,
   Doc2: () => Doc2_default,
   DocAdd: () => DocAdd_default,
+  DocChecked: () => DocChecked_default,
   DocInline: () => DocInline_default,
   Download: () => Download_default,
   Edit: () => Edit_default,
   Edit1: () => Edit1_default,
   EditSmart: () => EditSmart_default,
   Email: () => Email_default,
+  Email2: () => Email2_default,
   Excel: () => Excel_default,
   Exit: () => Exit_default,
   Export: () => Export_default,
@@ -104,6 +106,7 @@ __export(src_exports, {
   Group: () => Group_default,
   Hamburger: () => Hamburger_default,
   History: () => History_default,
+  Home: () => Home_default,
   Html: () => Html_default,
   Icon: () => Icon,
   Image: () => Image_default,
@@ -186,6 +189,7 @@ __export(src_exports, {
   Text1: () => Text1_default,
   TextFile: () => TextFile_default,
   Thinking: () => Thinking_default,
+  Time: () => Time_default,
   Tools: () => Tools_default,
   Touchpad: () => Touchpad_default,
   Travel: () => Travel_default,
@@ -2071,6 +2075,34 @@ var DocAdd = (props) => {
   return /* @__PURE__ */ (0, import_jsx_runtime178.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime178.jsx)("g", { transform: "translate(1.2, -1) scale(1.9)", children: /* @__PURE__ */ (0, import_jsx_runtime178.jsx)("path", { d: "M23.1035 4.7002C23.5357 4.70044 23.868 5.05323 23.8682 5.47168V10.8828C23.8684 13.9565 26.3804 16.4775 29.4248 16.4932H34.5303C34.9472 16.4932 35.2802 16.8287 35.2803 17.249V30.7568C35.28 34.923 31.9353 38.2998 27.7949 38.2998H14.5703C10.2455 38.2997 6.71975 34.7556 6.71973 30.3877V12.2764C6.71973 8.10997 10.0802 4.7002 14.2207 4.7002H23.1035ZM18.25 21.5C17.5596 21.5 17 22.0596 17 22.75V25.5H14.25C13.5596 25.5 13 26.0596 13 26.75C13 27.4404 13.5596 28 14.25 28H17V30.75C17 31.4404 17.5596 32 18.25 32C18.9404 32 19.5 31.4404 19.5 30.75V28H22.25C22.9404 28 23.5 27.4404 23.5 26.75C23.5 26.0596 22.9404 25.5 22.25 25.5H19.5V22.75C19.5 22.0596 18.9404 21.5 18.25 21.5ZM26.291 6.22168C26.2911 5.49805 27.161 5.13832 27.6572 5.66211C28.5584 6.60635 29.7963 7.90716 31.0283 9.20117C32.2568 10.4899 33.4785 11.7753 34.3555 12.6953C34.8411 13.2035 34.4844 14.0497 33.7852 14.0518C32.417 14.0569 30.8051 14.0511 29.6455 14.0391C27.8056 14.0388 26.2912 12.5093 26.291 10.6504V6.22168Z" }) }) });
 };
 var DocAdd_default = DocAdd;
+
+// src/icons/DocChecked.tsx
+var import_jsx_runtime179 = require("react/jsx-runtime");
+var DocChecked = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime179.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime179.jsx)("g", { transform: "translate(40, 40) scale(1.1) translate(-32, -32)", stroke: "black", children: /* @__PURE__ */ (0, import_jsx_runtime179.jsx)("path", { d: "M53.33 33.3315V18.1318C53.33 13.6515 53.33 11.4113 52.4581 9.70003C51.6911 8.19476 50.4673 6.97094 48.962 6.20396C47.2507 5.33203 45.0106 5.33203 40.5302 5.33203H23.4638C18.9835 5.33203 16.7433 5.33203 15.0321 6.20396C13.5268 6.97094 12.303 8.19476 11.536 9.70003C10.6641 11.4113 10.6641 13.6515 10.6641 18.1318V45.8647C10.6641 50.345 10.6641 52.5852 11.536 54.2964C12.303 55.8017 13.5268 57.0255 15.0321 57.7925C16.7433 58.6644 18.9835 58.6644 23.4638 58.6644H31.997M37.3303 29.3316H21.3305M26.6638 39.9981H21.3305M42.6635 18.6651H21.3305M38.6636 50.6646L43.9968 55.9978L55.9966 43.998", strokeWidth: "6", strokeLinecap: "round", strokeLinejoin: "round" }) }) });
+};
+var DocChecked_default = DocChecked;
+
+// src/icons/Email2.tsx
+var import_jsx_runtime180 = require("react/jsx-runtime");
+var Email2 = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime180.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime180.jsx)("g", { transform: "translate(40, 40) scale(1.1) translate(-32, -32)", stroke: "black", children: /* @__PURE__ */ (0, import_jsx_runtime180.jsx)("path", { d: "M5.33398 18.6671L27.1075 33.9086C28.8706 35.1428 29.7522 35.7599 30.7111 35.9989C31.5582 36.2101 32.4441 36.2101 33.2911 35.9989C34.25 35.7599 35.1316 35.1428 36.8947 33.9086L58.6682 18.6671M18.1342 53.3344H45.868C50.3485 53.3344 52.5888 53.3344 54.3001 52.4624C55.8054 51.6954 57.0293 50.4716 57.7963 48.9662C58.6682 47.2549 58.6682 45.0147 58.6682 40.5342V23.4672C58.6682 18.9867 58.6682 16.7465 57.7963 15.0351C57.0293 13.5298 55.8054 12.306 54.3001 11.539C52.5888 10.667 50.3485 10.667 45.868 10.667H18.1342C13.6537 10.667 11.4135 10.667 9.70214 11.539C8.19681 12.306 6.97295 13.5298 6.20595 15.0351C5.33398 16.7465 5.33398 18.9867 5.33398 23.4672V40.5342C5.33398 45.0147 5.33398 47.2549 6.20595 48.9662C6.97295 50.4716 8.19681 51.6954 9.70214 52.4624C11.4135 53.3344 13.6537 53.3344 18.1342 53.3344Z", strokeWidth: "6", strokeLinecap: "round", strokeLinejoin: "round" }) }) });
+};
+var Email2_default = Email2;
+
+// src/icons/Time.tsx
+var import_jsx_runtime181 = require("react/jsx-runtime");
+var Time = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime181.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime181.jsx)("g", { transform: "translate(40, 40) scale(1.1) translate(-32, -32)", stroke: "black", children: /* @__PURE__ */ (0, import_jsx_runtime181.jsx)("path", { d: "M56.0011 26.665H8.00195M42.668 5.33203V15.9985M21.3351 5.33203V15.9985M24.0017 42.6647L29.3349 47.998L41.3347 35.9982M20.8017 58.6644H43.2013C47.6817 58.6644 49.9219 58.6644 51.6331 57.7925C53.1384 57.0255 54.3622 55.8017 55.1292 54.2964C56.0011 52.5852 56.0011 50.345 56.0011 45.8647V23.465C56.0011 18.9847 56.0011 16.7445 55.1292 15.0333C54.3622 13.528 53.1384 12.3042 51.6331 11.5372C49.9219 10.6653 47.6817 10.6653 43.2013 10.6653H20.8017C16.3214 10.6653 14.0812 10.6653 12.37 11.5372C10.8647 12.3042 9.64086 13.528 8.87389 15.0333C8.00195 16.7445 8.00195 18.9847 8.00195 23.465V45.8647C8.00195 50.345 8.00195 52.5852 8.87389 54.2964C9.64086 55.8017 10.8647 57.0255 12.37 57.7925C14.0812 58.6644 16.3214 58.6644 20.8017 58.6644Z", strokeWidth: "6", strokeLinecap: "round", strokeLinejoin: "round" }) }) });
+};
+var Time_default = Time;
+
+// src/icons/Home.tsx
+var import_jsx_runtime182 = require("react/jsx-runtime");
+var Home = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime182.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime182.jsx)("g", { transform: "translate(5.3, 6.5) scale(3.6)", stroke: "black", children: /* @__PURE__ */ (0, import_jsx_runtime182.jsx)("path", { d: "M8.20898 1.48242C9.03094 0.838257 10.1698 0.838964 10.9873 1.48047V1.48145L17.8965 6.95312C17.2468 6.76249 16.5234 7.23449 16.5234 7.98535V14.3643C16.5232 15.8279 15.3286 17.0215 13.8623 17.0215H5.33789C3.87043 17.0215 2.67697 15.8277 2.67676 14.3643V7.98535C2.67676 7.23447 1.95245 6.76145 1.30273 6.95215L8.20898 1.48242Z", strokeWidth: "2", strokeLinecap: "round" }) }) });
+};
+var Home_default = Home;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   AIModel,
@@ -2116,12 +2148,14 @@ var DocAdd_default = DocAdd;
   Doc1,
   Doc2,
   DocAdd,
+  DocChecked,
   DocInline,
   Download,
   Edit,
   Edit1,
   EditSmart,
   Email,
+  Email2,
   Excel,
   Exit,
   Export,
@@ -2147,6 +2181,7 @@ var DocAdd_default = DocAdd;
   Group,
   Hamburger,
   History,
+  Home,
   Html,
   Icon,
   Image,
@@ -2229,6 +2264,7 @@ var DocAdd_default = DocAdd;
   Text1,
   TextFile,
   Thinking,
+  Time,
   Tools,
   Touchpad,
   Travel,

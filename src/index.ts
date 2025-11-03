@@ -185,3 +185,7 @@ export { default as X } from "./icons/X";
 export { default as XBorder } from "./icons/XBorder";
 export { default as SortAsc } from "./icons/SortAsc";
 export { default as DocAdd } from "./icons/DocAdd";
+export { default as DocChecked } from "./icons/DocChecked";
+export { default as Email2 } from "./icons/Email2";
+export { default as Time } from "./icons/Time";
+export { default as Home } from "./icons/Home";
