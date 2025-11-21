@@ -1886,6 +1886,79 @@ var Home = (props) => {
   return /* @__PURE__ */ jsx182(Icon, { ...props, children: /* @__PURE__ */ jsx182("g", { transform: "translate(5.3, 6.5) scale(3.6)", stroke: "black", children: /* @__PURE__ */ jsx182("path", { d: "M8.20898 1.48242C9.03094 0.838257 10.1698 0.838964 10.9873 1.48047V1.48145L17.8965 6.95312C17.2468 6.76249 16.5234 7.23449 16.5234 7.98535V14.3643C16.5232 15.8279 15.3286 17.0215 13.8623 17.0215H5.33789C3.87043 17.0215 2.67697 15.8277 2.67676 14.3643V7.98535C2.67676 7.23447 1.95245 6.76145 1.30273 6.95215L8.20898 1.48242Z", strokeWidth: "2", strokeLinecap: "round" }) }) });
 };
 var Home_default = Home;
+
+// src/icons/CheckCircleBroken.tsx
+import { jsx as jsx183, jsxs as jsxs127 } from "react/jsx-runtime";
+var CheckCircleBroken = (props) => {
+  return /* @__PURE__ */ jsx183(Icon, { ...props, children: /* @__PURE__ */ jsxs127("g", { transform: "scale(5) translate(1, 1)", children: [
+    /* @__PURE__ */ jsx183("g", { clipPath: "url(#clip0_14722_229859)", children: /* @__PURE__ */ jsx183("path", { d: "M12.8346 6.46651V7.00318C12.8339 8.26109 12.4266 9.48507 11.6734 10.4926C10.9202 11.5001 9.86155 12.2371 8.65526 12.5938C7.44897 12.9504 6.1597 12.9076 4.97974 12.4717C3.79978 12.0357 2.79235 11.2301 2.1077 10.1748C1.42304 9.11953 1.09785 7.87121 1.18061 6.61603C1.26338 5.36084 1.74967 4.16603 2.56697 3.2098C3.38426 2.25357 4.48876 1.58715 5.71575 1.30993C6.94273 1.03271 8.22646 1.15954 9.37547 1.67151M12.8346 2.33317L7.0013 8.17234L5.2513 6.42234", stroke: props.color || "currentColor", fill: "none", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" }) }),
+    /* @__PURE__ */ jsx183("defs", { children: /* @__PURE__ */ jsx183("clipPath", { id: "clip0_14722_229859", children: /* @__PURE__ */ jsx183("rect", { width: "14", height: "14", fill: "none" }) }) })
+  ] }) });
+};
+var CheckCircleBroken_default = CheckCircleBroken;
+
+// src/icons/MessageSmile.tsx
+import { jsx as jsx184 } from "react/jsx-runtime";
+var MessageSmile = (props) => {
+  return /* @__PURE__ */ jsx184(Icon, { ...props, children: /* @__PURE__ */ jsx184("g", { transform: "scale(4) translate(1.8, 2.5)", children: /* @__PURE__ */ jsx184("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8.91136 0C13.0501 0 16.4055 3.35538 16.4055 7.49414C16.4054 11.6328 13.05 14.9873 8.91136 14.9873C7.96234 14.9872 7.05458 14.8111 6.21898 14.4893C6.06642 14.4305 5.98966 14.4008 5.92894 14.3867C5.86918 14.3729 5.82519 14.3676 5.7639 14.3652C5.70175 14.3629 5.63348 14.3697 5.4973 14.3838L0.981676 14.8506C0.551431 14.8951 0.336143 14.9173 0.209215 14.8398C0.0988121 14.7725 0.0232962 14.66 0.00316047 14.5322C-0.0198577 14.3853 0.083598 14.1942 0.289293 13.8135L1.7307 11.1445C1.84946 10.9247 1.90888 10.8147 1.93578 10.709C1.96231 10.6047 1.96868 10.5292 1.96019 10.4219C1.95152 10.3132 1.90412 10.1714 1.80882 9.88867C1.55541 9.13676 1.41823 8.33151 1.4182 7.49414C1.4182 3.35553 4.77281 0.000241917 8.91136 0ZM12.5559 9.34277C12.2443 9.0705 11.771 9.10199 11.4983 9.41309L11.4729 9.43945C11.448 9.46483 11.4075 9.50583 11.3518 9.55566C11.2394 9.65613 11.0682 9.79404 10.8459 9.93262C10.4 10.2105 9.76459 10.4804 8.97679 10.4805C8.18904 10.4804 7.55359 10.2105 7.10765 9.93262C6.88544 9.79409 6.71415 9.65612 6.60179 9.55566C6.54608 9.50583 6.50556 9.46483 6.4807 9.43945C6.46849 9.42699 6.45864 9.41771 6.45433 9.41309C6.18147 9.10214 5.70817 9.07029 5.39672 9.34277C5.08529 9.61556 5.05379 10.0897 5.3264 10.4014L5.32836 10.4033L5.33031 10.4062C5.33192 10.4081 5.33401 10.4107 5.33617 10.4131C5.34063 10.418 5.34707 10.4244 5.35375 10.4316C5.36738 10.4464 5.38572 10.4661 5.40843 10.4893C5.45437 10.5362 5.51936 10.5991 5.60179 10.6729C5.76665 10.8203 6.00601 11.0133 6.31371 11.2051C6.92841 11.5882 7.83648 11.9804 8.97679 11.9805C10.117 11.9804 11.0252 11.5882 11.6399 11.2051C11.9474 11.0134 12.187 10.8202 12.3518 10.6729C12.4341 10.5992 12.4993 10.5361 12.5452 10.4893C12.5678 10.4661 12.5862 10.4464 12.5998 10.4316C12.6063 10.4246 12.6121 10.418 12.6164 10.4131C12.6185 10.4108 12.6207 10.408 12.6223 10.4062L12.6272 10.4014C12.8996 10.0897 12.8674 9.61548 12.5559 9.34277ZM6.55199 4.30859C5.89454 4.3087 5.36177 4.8416 5.36156 5.49902C5.36182 6.1564 5.89457 6.69032 6.55199 6.69043C7.2095 6.69043 7.74215 6.15647 7.74242 5.49902C7.74221 4.84153 7.20953 4.30859 6.55199 4.30859ZM11.4006 4.30859C10.7433 4.30889 10.2104 4.84172 10.2102 5.49902C10.2105 6.15628 10.7434 6.69013 11.4006 6.69043C12.0581 6.69043 12.5918 6.15647 12.592 5.49902C12.5918 4.84153 12.0582 4.30859 11.4006 4.30859Z" }) }) });
+};
+var MessageSmile_default = MessageSmile;
+
+// src/icons/ResourceFilled.tsx
+import { jsx as jsx185, jsxs as jsxs128 } from "react/jsx-runtime";
+var ResourceFilled = (props) => {
+  return /* @__PURE__ */ jsx185(Icon, { ...props, children: /* @__PURE__ */ jsxs128("g", { transform: "scale(5)", children: [
+    /* @__PURE__ */ jsx185("path", { d: "M7.07341 12.8537C7.07341 13.3728 6.91013 13.8728 6.55949 14.2495C6.20364 14.6318 5.70732 14.83 5.15963 14.83H3.00362C2.45594 14.83 1.95961 14.6318 1.60377 14.2495C1.25314 13.8728 1.08984 13.3728 1.08984 12.8537V10.822C1.08985 10.3023 1.25421 9.80263 1.60489 9.42645C1.96063 9.04488 2.45658 8.84641 3.00362 8.8464H5.15963C5.70726 8.8464 6.20342 9.04459 6.55926 9.42667C6.90992 9.80324 7.07341 10.303 7.07341 10.822V12.8537Z" }),
+    /* @__PURE__ */ jsx185("path", { d: "M14.908 11.8379C14.908 13.5842 13.492 15.0001 11.7458 15.0002C9.99944 15.0002 8.58353 13.5842 8.58349 11.8379C8.58349 10.0911 9.9993 8.67497 11.7458 8.67497C13.4922 8.67502 14.908 10.0911 14.908 11.8379Z" }),
+    /* @__PURE__ */ jsx185("path", { d: "M6.60537 1.96901C7.0781 1.15151 8.23737 1.1286 8.74901 1.89816L8.79646 1.97508L10.7941 5.48214C11.2731 6.3232 10.6667 7.37028 9.69679 7.37028H5.67603C4.7035 7.37028 4.0968 6.3177 4.58206 5.47629L6.60537 1.96901Z" })
+  ] }) });
+};
+var ResourceFilled_default = ResourceFilled;
+
+// src/icons/SadFace.tsx
+import { jsx as jsx186, jsxs as jsxs129 } from "react/jsx-runtime";
+var SadFace = (props) => {
+  return /* @__PURE__ */ jsx186(Icon, { ...props, children: /* @__PURE__ */ jsxs129("g", { transform: "scale(3.5) translate(2.4, 2.45)", children: [
+    /* @__PURE__ */ jsx186("rect", { width: "18", height: "18", rx: "9", fill: "url(#paint0_linear_14758_233993)" }),
+    /* @__PURE__ */ jsx186("path", { d: "M12.334 12.3333C12.334 12.3333 11.084 10.6666 9.00065 10.6666C6.91732 10.6666 5.66732 12.3333 5.66732 12.3333M13.1673 6.69995C12.8382 7.10412 12.3882 7.33328 11.9173 7.33328C11.4465 7.33328 11.009 7.10412 10.6673 6.69995M7.33398 6.69995C7.00482 7.10412 6.55482 7.33328 6.08398 7.33328C5.61315 7.33328 5.17565 7.10412 4.83398 6.69995", stroke: "#404D4E", fill: "none", "stroke-width": "1.5", "stroke-linecap": "round", "stroke-linejoin": "round" }),
+    /* @__PURE__ */ jsx186("defs", { children: /* @__PURE__ */ jsxs129("linearGradient", { id: "paint0_linear_14758_233993", x1: "9", y1: "0", x2: "9", y2: "18", gradientUnits: "userSpaceOnUse", children: [
+      /* @__PURE__ */ jsx186("stop", { "stop-color": "#99AEAF" }),
+      /* @__PURE__ */ jsx186("stop", { offset: "1", "stop-color": "#768787" })
+    ] }) })
+  ] }) });
+};
+var SadFace_default = SadFace;
+
+// src/icons/StopCircle.tsx
+import { jsx as jsx187, jsxs as jsxs130 } from "react/jsx-runtime";
+var StopCircle = (props) => {
+  return /* @__PURE__ */ jsx187(Icon, { ...props, children: /* @__PURE__ */ jsxs130("g", { transform: "scale(5)", children: [
+    /* @__PURE__ */ jsx187("rect", { x: "2", y: "2", width: "12", height: "12", rx: "6", stroke: props.color || "currentColor", fill: "none", strokeOpacity: "0.8", strokeWidth: "1.5" }),
+    /* @__PURE__ */ jsx187("rect", { x: "6", y: "6", width: "4", height: "4", rx: "1", fill: props.color || "currentColor", fillOpacity: "0.8" })
+  ] }) });
+};
+var StopCircle_default = StopCircle;
+
+// src/icons/Substrsct.tsx
+import { jsx as jsx188 } from "react/jsx-runtime";
+var Substrsct = (props) => {
+  return /* @__PURE__ */ jsx188(Icon, { ...props, children: /* @__PURE__ */ jsx188("g", { transform: "scale(4) translate(3, 3.5)", children: /* @__PURE__ */ jsx188("path", { d: "M9.26465 0C9.50022 0 9.61818 -0.000383206 9.72949 0.0253906C9.8281 0.0482251 9.92247 0.0864744 10.0098 0.137695C10.1083 0.195547 10.1942 0.27645 10.3652 0.438477L13.5 3.40918C13.6841 3.58366 13.7768 3.67123 13.8428 3.77441C13.9011 3.86577 13.9445 3.96611 13.9707 4.07129C14.0002 4.19004 14 4.31692 14 4.57031V9.61133C14 10.7973 13.9997 11.3908 13.7764 11.8438C13.5799 12.2422 13.2663 12.5665 12.8809 12.7695C12.4427 13.0001 11.8688 13 10.7217 13H3.27832C2.1309 13 1.55642 13.0003 1.11816 12.7695C0.732782 12.5665 0.420038 12.2421 0.223633 11.8438C0.000329301 11.3908 0 10.7973 0 9.61133V3.38867C0 2.20268 0.000329301 1.60924 0.223633 1.15625C0.420042 0.757928 0.732785 0.433463 1.11816 0.230469C1.55642 -0.000340968 2.1309 0 3.27832 0H9.26465ZM3.28809 7.75C2.87421 7.75026 2.53827 8.08611 2.53809 8.5C2.53828 8.91388 2.87422 9.24974 3.28809 9.25H6.28809C6.70218 9.25 7.03789 8.91405 7.03809 8.5C7.0379 8.08595 6.70218 7.75 6.28809 7.75H3.28809ZM3.28809 4.25C2.87421 4.25026 2.53827 4.58611 2.53809 5C2.53828 5.41388 2.87422 5.74974 3.28809 5.75H9.28809C9.70208 5.74989 10.0379 5.41398 10.0381 5C10.0379 4.58601 9.70209 4.25011 9.28809 4.25H3.28809Z" }) }) });
+};
+var Substrsct_default = Substrsct;
+
+// src/icons/TurnRight.tsx
+import { jsx as jsx189 } from "react/jsx-runtime";
+var TurnRight = (props) => {
+  return /* @__PURE__ */ jsx189(Icon, { ...props, children: /* @__PURE__ */ jsx189("g", { transform: "scale(5)", children: /* @__PURE__ */ jsx189("path", { d: "M13.8609 8.40464C14.0237 8.26515 14.105 8.1954 14.1348 8.1124C14.161 8.03955 14.161 7.95986 14.1348 7.88702C14.105 7.80402 14.0237 7.73427 13.8609 7.59477L8.21375 2.75435C7.9336 2.51422 7.79353 2.39416 7.67493 2.39122C7.57186 2.38866 7.47341 2.43394 7.40828 2.51386C7.33333 2.60582 7.33333 2.79031 7.33333 3.15929V6.02279C5.91021 6.27176 4.60773 6.99288 3.63981 8.07562C2.58455 9.25605 2.00082 10.7837 2 12.367V12.775C2.69956 11.9323 3.573 11.2507 4.56051 10.777C5.43113 10.3593 6.37228 10.1119 7.33333 10.0467V12.8401C7.33333 13.2091 7.33333 13.3936 7.40828 13.4856C7.47341 13.5655 7.57186 13.6108 7.67493 13.6082C7.79353 13.6053 7.9336 13.4852 8.21375 13.2451L13.8609 8.40464Z", stroke: props.color || "currentColor", fill: "none" }) }) });
+};
+var TurnRight_default = TurnRight;
+
+// src/icons/UserInput.tsx
+import { jsx as jsx190 } from "react/jsx-runtime";
+var UserInput = (props) => {
+  return /* @__PURE__ */ jsx190(Icon, { ...props, children: /* @__PURE__ */ jsx190("g", { transform: "scale(4)", children: /* @__PURE__ */ jsx190("path", { d: "M13.5 2.97266C14.8999 2.97266 15.6 2.97275 16.1348 3.24512C16.6052 3.4848 16.9879 3.86749 17.2275 4.33789C17.5 4.87264 17.5 5.57268 17.5 6.97266V11.7227C17.5 12.8875 17.4999 13.4703 17.3096 13.9297C17.0559 14.542 16.5694 15.0285 15.957 15.2822C15.4976 15.4725 14.9149 15.4727 13.75 15.4727C13.3429 15.4727 13.1391 15.473 12.9502 15.5176C12.6986 15.577 12.4641 15.6938 12.2656 15.8594C12.1166 15.9837 11.9942 16.147 11.75 16.4727L10.5332 18.0947C10.3524 18.3358 10.2621 18.4568 10.1514 18.5C10.0542 18.5378 9.94578 18.5378 9.84863 18.5C9.73786 18.4568 9.64757 18.3358 9.4668 18.0947L8.25 16.4727C8.00575 16.147 7.88335 15.9837 7.73438 15.8594C7.53587 15.6938 7.30138 15.577 7.0498 15.5176C6.86094 15.473 6.65715 15.4727 6.25 15.4727C5.08515 15.4727 4.5024 15.4725 4.04297 15.2822C3.43064 15.0285 2.94414 14.542 2.69043 13.9297C2.50013 13.4703 2.5 12.8875 2.5 11.7227V6.97266C2.5 5.57268 2.50002 4.87264 2.77246 4.33789C3.01214 3.86749 3.39483 3.4848 3.86523 3.24512C4.39998 2.97275 5.10007 2.97266 6.5 2.97266H13.5ZM10.0049 6.25488C9.59071 6.25488 9.25495 6.59073 9.25488 7.00488V8.75H7.5C7.08579 8.75 6.75 9.08579 6.75 9.5C6.75 9.91421 7.08579 10.25 7.5 10.25H9.25488V12.0049C9.25488 12.4191 9.59067 12.7549 10.0049 12.7549C10.4191 12.7549 10.7549 12.4191 10.7549 12.0049V10.25H12.5C12.9142 10.25 13.25 9.91421 13.25 9.5C13.25 9.08579 12.9142 8.75 12.5 8.75H10.7549V7.00488C10.7548 6.59073 10.4191 6.25488 10.0049 6.25488Z" }) }) });
+};
+var UserInput_default = UserInput;
 export {
   AIModel_default as AIModel,
   Account_default as Account,
@@ -1906,6 +1979,7 @@ export {
   Building_default as Building,
   Cancelled_default as Cancelled,
   Chat_default as Chat,
+  CheckCircleBroken_default as CheckCircleBroken,
   Checked_default as Checked,
   Claude_default as Claude,
   Clone_default as Clone,
@@ -1991,6 +2065,7 @@ export {
   Mcp_default as Mcp,
   Mcp1_default as Mcp1,
   Media_default as Media,
+  MessageSmile_default as MessageSmile,
   ModelProvider_default as ModelProvider,
   More_default as More,
   Mouse_default as Mouse,
@@ -2021,8 +2096,10 @@ export {
   Reloadto_default as Reloadto,
   Remix_default as Remix,
   Resource_default as Resource,
+  ResourceFilled_default as ResourceFilled,
   Running_default as Running,
   Running1_default as Running1,
+  SadFace_default as SadFace,
   ScreenDefault_default as ScreenDefault,
   ScreenFull_default as ScreenFull,
   Search_default as Search,
@@ -2038,9 +2115,11 @@ export {
   Sport_default as Sport,
   Start_default as Start,
   Stop_default as Stop,
+  StopCircle_default as StopCircle,
   SubNode_default as SubNode,
   Subline_default as Subline,
   Subscription_default as Subscription,
+  Substrsct_default as Substrsct,
   Tag_default as Tag,
   Text_default as Text,
   Text1_default as Text1,
@@ -2051,10 +2130,12 @@ export {
   Touchpad_default as Touchpad,
   Travel_default as Travel,
   Treemenu_default as Treemenu,
+  TurnRight_default as TurnRight,
   Undo_default as Undo,
   University_default as University,
   Upgrade_default as Upgrade,
   Usage_default as Usage,
+  UserInput_default as UserInput,
   Video_default as Video,
   View_default as View,
   Wait_default as Wait,

@@ -1,0 +1,22 @@
+import React from 'react';
+import { Icon, IconProps } from '../components/Icon';
+
+export const CheckCircleBroken: React.FC<IconProps> = (props) => {
+  return (
+    <Icon {...props}>
+      <g transform="scale(5) translate(1, 1)">
+        <g clipPath="url(#clip0_14722_229859)">
+          <path d="M12.8346 6.46651V7.00318C12.8339 8.26109 12.4266 9.48507 11.6734 10.4926C10.9202 11.5001 9.86155 12.2371 8.65526 12.5938C7.44897 12.9504 6.1597 12.9076 4.97974 12.4717C3.79978 12.0357 2.79235 11.2301 2.1077 10.1748C1.42304 9.11953 1.09785 7.87121 1.18061 6.61603C1.26338 5.36084 1.74967 4.16603 2.56697 3.2098C3.38426 2.25357 4.48876 1.58715 5.71575 1.30993C6.94273 1.03271 8.22646 1.15954 9.37547 1.67151M12.8346 2.33317L7.0013 8.17234L5.2513 6.42234" stroke={props.color || 'currentColor'} fill="none" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+        </g>
+        <defs>
+          <clipPath id="clip0_14722_229859">
+            <rect width="14" height="14" fill="none"/>
+          </clipPath>
+        </defs>
+      </g>
+    </Icon>
+  );
+};
+
+export default CheckCircleBroken;
+

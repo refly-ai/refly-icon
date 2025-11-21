@@ -369,4 +369,20 @@ declare const Time: React.FC<IconProps>;
 
 declare const Home: React.FC<IconProps>;
 
-export { AIModel, Account, Add, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, At, Attachment, Audio, AutoLayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Close, Code, Code1, CodeZip, Community, Completed, Computer, Contact, Copy, Creadit, Creation, Cuttools, Data, Deepseek, Delete, Delivery, DesignPattern, Doc, Doc1, Doc2, DocAdd, DocChecked, DocInline, Download, Edit, Edit1, EditSmart, Email, Email2, Excel, Exit, Export, File, File1, Finder, FinderClose, FinderOpen, Finished, Flow, Fold, FreeCreation, Fullscreen, Game, Gemini, GeneralFile, GeneralWeb, Generating, Github, Google, Gpt, Grok, Group, Hamburger, History, Home, Html, Icon, IconProps, Image, ImageOutline, InputContext, InterfaceDark, InterfaceLight, Invite, Jump, Keyboard, Knowledge, KnowledgeBase, Labs, Language, LargeModel, List, Location, Logic, Magiccursor, MagiccursorDefault, Mail, Map, Markdown, Market, Mcp, Mcp1, Media, ModelProvider, More, Mouse, NewConversation, Note, Note1, OrgFile, Output, Page, Parse, Pdf, Pending, Play, PlayOutline, Ppt, Ppt1, PptFile, Preview, Project, ProjectItem, Provider, Question, Redo, Reference, Refly, Refresh, Reload, Reloadto, Remix, Resource, Running, Running1, ScreenDefault, ScreenFull, Search, Security, Send, Setting, Settings, Share, SideLeft, SideRight, Sort, SortAsc, Sport, Start, Stop, SubNode, Subline, Subscription, Tag, Text, Text1, TextFile, Thinking, Time, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Usage, Video, View, Wait, Weather, Web, Web1, Websearch, Wiki, WinLeft, WinRight, X, XBorder, ZoomIn, ZoomOut };
+declare const CheckCircleBroken: React.FC<IconProps>;
+
+declare const MessageSmile: React.FC<IconProps>;
+
+declare const ResourceFilled: React.FC<IconProps>;
+
+declare const SadFace: React.FC<IconProps>;
+
+declare const StopCircle: React.FC<IconProps>;
+
+declare const Substrsct: React.FC<IconProps>;
+
+declare const TurnRight: React.FC<IconProps>;
+
+declare const UserInput: React.FC<IconProps>;
+
+export { AIModel, Account, Add, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, At, Attachment, Audio, AutoLayout, Back, Building, Cancelled, Chat, CheckCircleBroken, Checked, Claude, Clone, Close, Code, Code1, CodeZip, Community, Completed, Computer, Contact, Copy, Creadit, Creation, Cuttools, Data, Deepseek, Delete, Delivery, DesignPattern, Doc, Doc1, Doc2, DocAdd, DocChecked, DocInline, Download, Edit, Edit1, EditSmart, Email, Email2, Excel, Exit, Export, File, File1, Finder, FinderClose, FinderOpen, Finished, Flow, Fold, FreeCreation, Fullscreen, Game, Gemini, GeneralFile, GeneralWeb, Generating, Github, Google, Gpt, Grok, Group, Hamburger, History, Home, Html, Icon, IconProps, Image, ImageOutline, InputContext, InterfaceDark, InterfaceLight, Invite, Jump, Keyboard, Knowledge, KnowledgeBase, Labs, Language, LargeModel, List, Location, Logic, Magiccursor, MagiccursorDefault, Mail, Map, Markdown, Market, Mcp, Mcp1, Media, MessageSmile, ModelProvider, More, Mouse, NewConversation, Note, Note1, OrgFile, Output, Page, Parse, Pdf, Pending, Play, PlayOutline, Ppt, Ppt1, PptFile, Preview, Project, ProjectItem, Provider, Question, Redo, Reference, Refly, Refresh, Reload, Reloadto, Remix, Resource, ResourceFilled, Running, Running1, SadFace, ScreenDefault, ScreenFull, Search, Security, Send, Setting, Settings, Share, SideLeft, SideRight, Sort, SortAsc, Sport, Start, Stop, StopCircle, SubNode, Subline, Subscription, Substrsct, Tag, Text, Text1, TextFile, Thinking, Time, Tools, Touchpad, Travel, Treemenu, TurnRight, Undo, University, Upgrade, Usage, UserInput, Video, View, Wait, Weather, Web, Web1, Websearch, Wiki, WinLeft, WinRight, X, XBorder, ZoomIn, ZoomOut };
