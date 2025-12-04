@@ -49,6 +49,7 @@ __export(src_exports, {
   Building: () => Building_default,
   Cancelled: () => Cancelled_default,
   Chat: () => Chat_default,
+  CheckCircle: () => CheckCircle_default,
   CheckCircleBroken: () => CheckCircleBroken_default,
   Checked: () => Checked_default,
   Claude: () => Claude_default,
@@ -118,6 +119,7 @@ __export(src_exports, {
   Invite: () => Invite_default,
   Jump: () => Jump_default,
   Keyboard: () => Keyboard_default,
+  Kimi: () => Kimi_default,
   Knowledge: () => Knowledge_default,
   KnowledgeBase: () => KnowledgeBase_default,
   Labs: () => Labs_default,
@@ -132,6 +134,7 @@ __export(src_exports, {
   Map: () => Map_default,
   Markdown: () => Markdown_default,
   Market: () => Market_default,
+  MarketPlace: () => MarketPlace_default,
   Mcp: () => Mcp_default,
   Mcp1: () => Mcp1_default,
   Media: () => Media_default,
@@ -142,6 +145,7 @@ __export(src_exports, {
   NewConversation: () => NewConversation_default,
   Note: () => Note_default,
   Note1: () => Note1_default,
+  Notification: () => Notification_default,
   OrgFile: () => OrgFile_default,
   Output: () => Output_default,
   Page: () => Page_default,
@@ -158,6 +162,7 @@ __export(src_exports, {
   ProjectItem: () => ProjectItem_default,
   Provider: () => Provider_default,
   Question: () => Question_default,
+  Qwen: () => Qwen_default,
   Redo: () => Redo_default,
   Reference: () => Reference_default,
   Refly: () => Refly_default,
@@ -2184,6 +2189,60 @@ var UserInput = (props) => {
   return /* @__PURE__ */ (0, import_jsx_runtime190.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime190.jsx)("g", { transform: "scale(4)", children: /* @__PURE__ */ (0, import_jsx_runtime190.jsx)("path", { d: "M13.5 2.97266C14.8999 2.97266 15.6 2.97275 16.1348 3.24512C16.6052 3.4848 16.9879 3.86749 17.2275 4.33789C17.5 4.87264 17.5 5.57268 17.5 6.97266V11.7227C17.5 12.8875 17.4999 13.4703 17.3096 13.9297C17.0559 14.542 16.5694 15.0285 15.957 15.2822C15.4976 15.4725 14.9149 15.4727 13.75 15.4727C13.3429 15.4727 13.1391 15.473 12.9502 15.5176C12.6986 15.577 12.4641 15.6938 12.2656 15.8594C12.1166 15.9837 11.9942 16.147 11.75 16.4727L10.5332 18.0947C10.3524 18.3358 10.2621 18.4568 10.1514 18.5C10.0542 18.5378 9.94578 18.5378 9.84863 18.5C9.73786 18.4568 9.64757 18.3358 9.4668 18.0947L8.25 16.4727C8.00575 16.147 7.88335 15.9837 7.73438 15.8594C7.53587 15.6938 7.30138 15.577 7.0498 15.5176C6.86094 15.473 6.65715 15.4727 6.25 15.4727C5.08515 15.4727 4.5024 15.4725 4.04297 15.2822C3.43064 15.0285 2.94414 14.542 2.69043 13.9297C2.50013 13.4703 2.5 12.8875 2.5 11.7227V6.97266C2.5 5.57268 2.50002 4.87264 2.77246 4.33789C3.01214 3.86749 3.39483 3.4848 3.86523 3.24512C4.39998 2.97275 5.10007 2.97266 6.5 2.97266H13.5ZM10.0049 6.25488C9.59071 6.25488 9.25495 6.59073 9.25488 7.00488V8.75H7.5C7.08579 8.75 6.75 9.08579 6.75 9.5C6.75 9.91421 7.08579 10.25 7.5 10.25H9.25488V12.0049C9.25488 12.4191 9.59067 12.7549 10.0049 12.7549C10.4191 12.7549 10.7549 12.4191 10.7549 12.0049V10.25H12.5C12.9142 10.25 13.25 9.91421 13.25 9.5C13.25 9.08579 12.9142 8.75 12.5 8.75H10.7549V7.00488C10.7548 6.59073 10.4191 6.25488 10.0049 6.25488Z" }) }) });
 };
 var UserInput_default = UserInput;
+
+// src/icons/Kimi.tsx
+var import_jsx_runtime191 = require("react/jsx-runtime");
+var Kimi = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime191.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime191.jsxs)("g", { transform: "scale(3.2) translate(0, 0.55)", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime191.jsx)("path", { d: "M19.738 5.776c.163-.209.306-.4.457-.585.07-.087.064-.153-.004-.244-.655-.861-.717-1.817-.34-2.787.283-.73.909-1.072 1.674-1.145.477-.045.945.004 1.379.236.57.305.902.77 1.01 1.412.086.512.07 1.012-.075 1.508-.257.878-.888 1.333-1.753 1.448-.718.096-1.446.108-2.17.157-.056.004-.113 0-.178 0z", fill: "#027AFF" }),
+    /* @__PURE__ */ (0, import_jsx_runtime191.jsx)("path", { d: "M17.962 1.844h-4.326l-3.425 7.81H5.369V1.878H1.5V22h3.87v-8.477h6.824a3.025 3.025 0 002.743-1.75V22h3.87v-8.477a3.87 3.87 0 00-3.588-3.86v-.01h-2.125a3.94 3.94 0 002.323-2.12l2.545-5.689z" })
+  ] }) });
+};
+var Kimi_default = Kimi;
+
+// src/icons/MarketPlace.tsx
+var import_jsx_runtime192 = require("react/jsx-runtime");
+var MarketPlace = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime192.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime192.jsx)("g", { transform: "scale(3.3)", children: /* @__PURE__ */ (0, import_jsx_runtime192.jsx)("path", { d: "M8.12602 14C8.57006 15.7252 10.1362 17 12 17C13.8638 17 15.4299 15.7252 15.874 14M11.0177 2.76401L4.23539 8.03914C3.78202 8.39176 3.55534 8.56807 3.39203 8.78887C3.24737 8.98446 3.1396 9.2048 3.07403 9.43907C3 9.70353 3 9.99071 3 10.5651V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V10.5651C21 9.99071 21 9.70353 20.926 9.43907C20.8604 9.2048 20.7526 8.98446 20.608 8.78887C20.4447 8.56807 20.218 8.39176 19.7646 8.03914L12.9823 2.76401C12.631 2.49076 12.4553 2.35413 12.2613 2.30162C12.0902 2.25528 11.9098 2.25528 11.7387 2.30162C11.5447 2.35413 11.369 2.49076 11.0177 2.76401Z", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" }) }) });
+};
+var MarketPlace_default = MarketPlace;
+
+// src/icons/Notification.tsx
+var import_jsx_runtime193 = require("react/jsx-runtime");
+var Notification = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime193.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime193.jsxs)("g", { transform: "scale(3.3) translate(0.1, 0)", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime193.jsx)("path", { d: "M13.7962 6.23856C14.2317 5.78864 14.4997 5.17562 14.4997 4.5C14.4997 3.11929 13.3804 2 11.9997 2C10.619 2 9.49972 3.11929 9.49972 4.5C9.49972 5.17562 9.76772 5.78864 10.2032 6.23856M17.9997 11.2C17.9997 9.82087 17.3676 8.49823 16.2424 7.52304C15.1171 6.54786 13.591 6 11.9997 6C10.4084 6 8.8823 6.54786 7.75708 7.52304C6.63186 8.49823 5.99972 9.82087 5.99972 11.2C5.99972 13.4818 5.43385 15.1506 4.72778 16.3447C3.92306 17.7056 3.5207 18.3861 3.53659 18.5486C3.55476 18.7346 3.58824 18.7933 3.73906 18.9036C3.87089 19 4.53323 19 5.85791 19H18.1415C19.4662 19 20.1286 19 20.2604 18.9036C20.4112 18.7933 20.4447 18.7346 20.4629 18.5486C20.4787 18.3861 20.0764 17.7056 19.2717 16.3447C18.5656 15.1506 17.9997 13.4818 17.9997 11.2Z", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" }),
+    /* @__PURE__ */ (0, import_jsx_runtime193.jsx)("path", { d: "M15 19C15 20.6569 13.6569 22 12 22C10.3431 22 9 20.6569 9 19", fill: "none", stroke: "currentColor", strokeOpacity: "0.6", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" })
+  ] }) });
+};
+var Notification_default = Notification;
+
+// src/icons/Qwen.tsx
+var import_jsx_runtime194 = require("react/jsx-runtime");
+var Qwen = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime194.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime194.jsxs)("g", { transform: "scale(3.2) translate(0.5, 0.55)", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime194.jsx)("path", { d: "M12.604 1.34c.393.69.784 1.382 1.174 2.075a.18.18 0 00.157.091h5.552c.174 0 .322.11.446.327l1.454 2.57c.19.337.24.478.024.837-.26.43-.513.864-.76 1.3l-.367.658c-.106.196-.223.28-.04.512l2.652 4.637c.172.301.111.494-.043.77-.437.785-.882 1.564-1.335 2.34-.159.272-.352.375-.68.37-.777-.016-1.552-.01-2.327.016a.099.099 0 00-.081.05 575.097 575.097 0 01-2.705 4.74c-.169.293-.38.363-.725.364-.997.003-2.002.004-3.017.002a.537.537 0 01-.465-.271l-1.335-2.323a.09.09 0 00-.083-.049H4.982c-.285.03-.553-.001-.805-.092l-1.603-2.77a.543.543 0 01-.002-.54l1.207-2.12a.198.198 0 000-.197 550.951 550.951 0 01-1.875-3.272l-.79-1.395c-.16-.31-.173-.496.095-.965.465-.813.927-1.625 1.387-2.436.132-.234.304-.334.584-.335a338.3 338.3 0 012.589-.001.124.124 0 00.107-.063l2.806-4.895a.488.488 0 01.422-.246c.524-.001 1.053 0 1.583-.006L11.704 1c.341-.003.724.032.9.34zm-3.432.403a.06.06 0 00-.052.03L6.254 6.788a.157.157 0 01-.135.078H3.253c-.056 0-.07.025-.041.074l5.81 10.156c.025.042.013.062-.034.063l-2.795.015a.218.218 0 00-.2.116l-1.32 2.31c-.044.078-.021.118.068.118l5.716.008c.046 0 .08.02.104.061l1.403 2.454c.046.081.092.082.139 0l5.006-8.76.783-1.382a.055.055 0 01.096 0l1.424 2.53a.122.122 0 00.107.062l2.763-.02a.04.04 0 00.035-.02.041.041 0 000-.04l-2.9-5.086a.108.108 0 010-.113l.293-.507 1.12-1.977c.024-.041.012-.062-.035-.062H9.2c-.059 0-.073-.026-.043-.077l1.434-2.505a.107.107 0 000-.114L9.225 1.774a.06.06 0 00-.053-.031zm6.29 8.02c.046 0 .058.02.034.06l-.832 1.465-2.613 4.585a.056.056 0 01-.05.029.058.058 0 01-.05-.029L8.498 9.841c-.02-.034-.01-.052.028-.054l.216-.012 6.722-.012z", fill: "url(#lobe-icons-qwen-fill)", fillRule: "nonzero" }),
+    /* @__PURE__ */ (0, import_jsx_runtime194.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime194.jsxs)("linearGradient", { id: "lobe-icons-qwen-fill", x1: "0%", x2: "100%", y1: "0%", y2: "0%", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime194.jsx)("stop", { offset: "0%", stopColor: "#6336E7", stopOpacity: ".84" }),
+      /* @__PURE__ */ (0, import_jsx_runtime194.jsx)("stop", { offset: "100%", stopColor: "#6F69F7", stopOpacity: ".84" })
+    ] }) })
+  ] }) });
+};
+var Qwen_default = Qwen;
+
+// src/icons/CheckCircle.tsx
+var import_jsx_runtime195 = require("react/jsx-runtime");
+var CheckCircle = (props) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime195.jsx)(Icon, { ...props, children: /* @__PURE__ */ (0, import_jsx_runtime195.jsxs)("g", { transform: "scale(3.6) translate(2.1, 2.1)", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime195.jsx)("rect", { width: "18", height: "18", rx: "9", fill: "url(#paint0_linear_17295_68573)" }),
+    /* @__PURE__ */ (0, import_jsx_runtime195.jsx)("path", { d: "M4.5 9.5L7.625 12.625L13.75 6.5", fill: "none", stroke: "#FFFCE0", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" }),
+    /* @__PURE__ */ (0, import_jsx_runtime195.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime195.jsxs)("linearGradient", { id: "paint0_linear_17295_68573", x1: "9", y1: "0", x2: "9", y2: "18", gradientUnits: "userSpaceOnUse", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime195.jsx)("stop", { stopColor: "#18CBD1" }),
+      /* @__PURE__ */ (0, import_jsx_runtime195.jsx)("stop", { offset: "1", stopColor: "#0E9F77" })
+    ] }) })
+  ] }) });
+};
+var CheckCircle_default = CheckCircle;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   AIModel,
@@ -2205,6 +2264,7 @@ var UserInput_default = UserInput;
   Building,
   Cancelled,
   Chat,
+  CheckCircle,
   CheckCircleBroken,
   Checked,
   Claude,
@@ -2274,6 +2334,7 @@ var UserInput_default = UserInput;
   Invite,
   Jump,
   Keyboard,
+  Kimi,
   Knowledge,
   KnowledgeBase,
   Labs,
@@ -2288,6 +2349,7 @@ var UserInput_default = UserInput;
   Map,
   Markdown,
   Market,
+  MarketPlace,
   Mcp,
   Mcp1,
   Media,
@@ -2298,6 +2360,7 @@ var UserInput_default = UserInput;
   NewConversation,
   Note,
   Note1,
+  Notification,
   OrgFile,
   Output,
   Page,
@@ -2314,6 +2377,7 @@ var UserInput_default = UserInput;
   ProjectItem,
   Provider,
   Question,
+  Qwen,
   Redo,
   Reference,
   Refly,

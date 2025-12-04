@@ -197,3 +197,8 @@ export { default as StopCircle } from "./icons/StopCircle";
 export { default as Substrsct } from "./icons/Substrsct";
 export { default as TurnRight } from "./icons/TurnRight";
 export { default as UserInput } from "./icons/UserInput";
+export { default as Kimi } from "./icons/Kimi";
+export { default as MarketPlace } from "./icons/MarketPlace";
+export { default as Notification } from "./icons/Notification";
+export { default as Qwen } from "./icons/Qwen";
+export { default as CheckCircle } from "./icons/CheckCircle";
