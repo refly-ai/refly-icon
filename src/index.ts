@@ -202,3 +202,4 @@ export { default as MarketPlace } from "./icons/MarketPlace";
 export { default as Notification } from "./icons/Notification";
 export { default as Qwen } from "./icons/Qwen";
 export { default as CheckCircle } from "./icons/CheckCircle";
+export { default as Bolt } from "./icons/Bolt";
