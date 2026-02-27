@@ -1,6 +1,6 @@
 {
   "name": "refly-icons",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "A set of customizable SVG React icon components for Refly.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

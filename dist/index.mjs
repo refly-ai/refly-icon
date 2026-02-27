@@ -2016,24 +2016,50 @@ var Qwen = (props) => {
 };
 var Qwen_default = Qwen;
 
-// src/icons/CheckCircle.tsx
+// src/icons/GLM.tsx
 import { jsx as jsx195, jsxs as jsxs137 } from "react/jsx-runtime";
+var GLM = (props) => {
+  return /* @__PURE__ */ jsx195(Icon, { ...props, children: /* @__PURE__ */ jsxs137("g", { transform: "scale(3.2) translate(0.5, 0.5)", children: [
+    /* @__PURE__ */ jsx195("defs", { children: /* @__PURE__ */ jsxs137("linearGradient", { id: "lobe-icons-chat-glm-fill", x1: "-18.756%", x2: "70.894%", y1: "49.371%", y2: "90.944%", children: [
+      /* @__PURE__ */ jsx195("stop", { offset: "0%", stopColor: "#504AF4" }),
+      /* @__PURE__ */ jsx195("stop", { offset: "100%", stopColor: "#3485FF" })
+    ] }) }),
+    /* @__PURE__ */ jsx195("path", { d: "M9.917 2c4.906 0 10.178 3.947 8.93 10.58-.014.07-.037.14-.057.21l-.003-.277c-.083-3-1.534-8.934-8.87-8.934-3.393 0-8.137 3.054-7.93 8.158-.04 4.778 3.555 8.4 7.95 8.332l.073-.001c1.2-.033 2.763-.429 3.1-1.657.063-.031.26.534.268.598.048.256.112.369.192.34.981-.348 2.286-1.222 1.952-2.38-.176-.61-1.775-.147-1.921-.347.418-.979 2.234-.926 3.153-.716.443.102.657.38 1.012.442.29.052.981-.2.96.242-1.5 3.042-4.893 5.41-8.808 5.41C3.654 22 0 16.574 0 11.737 0 5.947 4.959 2 9.917 2zM9.9 5.3c.484 0 1.125.225 1.38.585 3.669.145 4.313 2.686 4.694 5.444.255 1.838.315 2.3.182 1.387l.083.59c.068.448.554.737.982.516.144-.075.254-.231.328-.47a.2.2 0 01.258-.13l.625.22a.2.2 0 01.124.238 2.172 2.172 0 01-.51.92c-.878.917-2.757.664-3.08-.62-.14-.554-.055-.626-.345-1.242-.292-.621-1.238-.709-1.69-.295-.345.315-.407.805-.406 1.282L12.6 15.9a.9.9 0 01-.9.9h-1.4a.9.9 0 01-.9-.9v-.65a1.15 1.15 0 10-2.3 0v.65a.9.9 0 01-.9.9H4.8a.9.9 0 01-.9-.9l.035-3.239c.012-1.884.356-3.658 2.47-4.134.2-.045.252.13.29.342.025.154.043.252.053.294.701 3.058 1.75 4.299 3.144 3.722l.66-.331.254-.13c.158-.082.25-.131.276-.15.012-.01-.165-.206-.407-.464l-1.012-1.067a8.925 8.925 0 01-.199-.216c-.047-.034-.116.068-.208.306-.074.157-.251.252-.272.326-.013.058.108.298.362.72.164.288.22.508-.31.343-1.04-.8-1.518-2.273-1.684-3.725-.004-.035-.162-1.913-.162-1.913a1.2 1.2 0 011.113-1.281L9.9 5.3zm12.994 8.68c.037.697-.403.704-1.213.591l-1.783-.276c-.265-.053-.385-.099-.313-.147.47-.315 3.268-.93 3.31-.168zm-.915-.083l-.926.042c-.85.077-1.452.24.338.336l.103.003c.815.012 1.264-.359.485-.381zm1.667-3.601h.01c.79.398.067 1.03-.65 1.393-.14.07-.491.176-1.052.315-.241.04-.457.092-.333.16l.01.005c1.952.958-3.123 1.534-2.495 1.285l.38-.148c.68-.266 1.614-.682 1.666-1.337.038-.48 1.253-.442 1.493-.968.048-.106 0-.236-.144-.389-.05-.047-.094-.094-.107-.148-.073-.305.7-.431 1.222-.168zm-2.568-.474c-.135 1.198-2.479 4.192-1.949 2.863l.017-.042c.298-.717.376-2.221 1.337-3.221.25-.26.636.035.595.4zm-7.976-.253c.02-.694 1.002-.968 1.346-.347.01-1.274-1.941-.768-1.346.347z", fill: "url(#lobe-icons-chat-glm-fill)", fillRule: "evenodd" })
+  ] }) });
+};
+var GLM_default = GLM;
+
+// src/icons/Minimax.tsx
+import { jsx as jsx196, jsxs as jsxs138 } from "react/jsx-runtime";
+var Minimax = (props) => {
+  return /* @__PURE__ */ jsx196(Icon, { ...props, children: /* @__PURE__ */ jsxs138("g", { transform: "scale(3.2) translate(0.5, 0.5)", children: [
+    /* @__PURE__ */ jsx196("defs", { children: /* @__PURE__ */ jsxs138("linearGradient", { id: "lobe-icons-minimax-fill", x1: "0%", x2: "100.182%", y1: "50.057%", y2: "50.057%", children: [
+      /* @__PURE__ */ jsx196("stop", { offset: "0%", stopColor: "#E2167E" }),
+      /* @__PURE__ */ jsx196("stop", { offset: "100%", stopColor: "#FE603C" })
+    ] }) }),
+    /* @__PURE__ */ jsx196("path", { d: "M16.278 2c1.156 0 2.093.927 2.093 2.07v12.501a.74.74 0 00.744.709.74.74 0 00.743-.709V9.099a2.06 2.06 0 012.071-2.049A2.06 2.06 0 0124 9.1v6.561a.649.649 0 01-.652.645.649.649 0 01-.653-.645V9.1a.762.762 0 00-.766-.758.762.762 0 00-.766.758v7.472a2.037 2.037 0 01-2.048 2.026 2.037 2.037 0 01-2.048-2.026v-12.5a.785.785 0 00-.788-.753.785.785 0 00-.789.752l-.001 15.904A2.037 2.037 0 0113.441 22a2.037 2.037 0 01-2.048-2.026V18.04c0-.356.292-.645.652-.645.36 0 .652.289.652.645v1.934c0 .263.142.506.372.638.23.131.514.131.744 0a.734.734 0 00.372-.638V4.07c0-1.143.937-2.07 2.093-2.07zm-5.674 0c1.156 0 2.093.927 2.093 2.07v11.523a.648.648 0 01-.652.645.648.648 0 01-.652-.645V4.07a.785.785 0 00-.789-.78.785.785 0 00-.789.78v14.013a2.06 2.06 0 01-2.07 2.048 2.06 2.06 0 01-2.071-2.048V9.1a.762.762 0 00-.766-.758.762.762 0 00-.766.758v3.8a2.06 2.06 0 01-2.071 2.049A2.06 2.06 0 010 12.9v-1.378c0-.357.292-.646.652-.646.36 0 .653.29.653.646V12.9c0 .418.343.757.766.757s.766-.339.766-.757V9.099a2.06 2.06 0 012.07-2.048 2.06 2.06 0 012.071 2.048v8.984c0 .419.343.758.767.758.423 0 .766-.339.766-.758V4.07c0-1.143.937-2.07 2.093-2.07z", fill: "url(#lobe-icons-minimax-fill)", fillRule: "nonzero" })
+  ] }) });
+};
+var Minimax_default = Minimax;
+
+// src/icons/CheckCircle.tsx
+import { jsx as jsx197, jsxs as jsxs139 } from "react/jsx-runtime";
 var CheckCircle = (props) => {
-  return /* @__PURE__ */ jsx195(Icon, { ...props, children: /* @__PURE__ */ jsxs137("g", { transform: "scale(3.6) translate(2.1, 2.1)", children: [
-    /* @__PURE__ */ jsx195("rect", { width: "18", height: "18", rx: "9", fill: "url(#paint0_linear_17295_68573)" }),
-    /* @__PURE__ */ jsx195("path", { d: "M4.5 9.5L7.625 12.625L13.75 6.5", fill: "none", stroke: "#FFFCE0", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" }),
-    /* @__PURE__ */ jsx195("defs", { children: /* @__PURE__ */ jsxs137("linearGradient", { id: "paint0_linear_17295_68573", x1: "9", y1: "0", x2: "9", y2: "18", gradientUnits: "userSpaceOnUse", children: [
-      /* @__PURE__ */ jsx195("stop", { stopColor: "#18CBD1" }),
-      /* @__PURE__ */ jsx195("stop", { offset: "1", stopColor: "#0E9F77" })
+  return /* @__PURE__ */ jsx197(Icon, { ...props, children: /* @__PURE__ */ jsxs139("g", { transform: "scale(3.6) translate(2.1, 2.1)", children: [
+    /* @__PURE__ */ jsx197("rect", { width: "18", height: "18", rx: "9", fill: "url(#paint0_linear_17295_68573)" }),
+    /* @__PURE__ */ jsx197("path", { d: "M4.5 9.5L7.625 12.625L13.75 6.5", fill: "none", stroke: "#FFFCE0", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" }),
+    /* @__PURE__ */ jsx197("defs", { children: /* @__PURE__ */ jsxs139("linearGradient", { id: "paint0_linear_17295_68573", x1: "9", y1: "0", x2: "9", y2: "18", gradientUnits: "userSpaceOnUse", children: [
+      /* @__PURE__ */ jsx197("stop", { stopColor: "#18CBD1" }),
+      /* @__PURE__ */ jsx197("stop", { offset: "1", stopColor: "#0E9F77" })
     ] }) })
   ] }) });
 };
 var CheckCircle_default = CheckCircle;
 
 // src/icons/Bolt.tsx
-import { jsx as jsx196 } from "react/jsx-runtime";
+import { jsx as jsx198 } from "react/jsx-runtime";
 var Bolt = (props) => {
-  return /* @__PURE__ */ jsx196(Icon, { ...props, children: /* @__PURE__ */ jsx196("g", { transform: "scale(3.5) translate(2, 0.5)", children: /* @__PURE__ */ jsx196("path", { d: "M10.4325 1L1.52593 11.6879C1.17713 12.1064 1.00272 12.3157 1.00006 12.4925C0.99774 12.6461 1.06621 12.7923 1.18574 12.8889C1.32323 13 1.59566 13 2.14051 13H9.43248L8.43248 21L17.339 10.3121C17.6878 9.89358 17.8622 9.68429 17.8649 9.50754C17.8672 9.35388 17.7987 9.2077 17.6792 9.11111C17.5417 9 17.2693 9 16.7244 9H9.43248L10.4325 1Z", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" }) }) });
+  return /* @__PURE__ */ jsx198(Icon, { ...props, children: /* @__PURE__ */ jsx198("g", { transform: "scale(3.5) translate(2, 0.5)", children: /* @__PURE__ */ jsx198("path", { d: "M10.4325 1L1.52593 11.6879C1.17713 12.1064 1.00272 12.3157 1.00006 12.4925C0.99774 12.6461 1.06621 12.7923 1.18574 12.8889C1.32323 13 1.59566 13 2.14051 13H9.43248L8.43248 21L17.339 10.3121C17.6878 9.89358 17.8622 9.68429 17.8649 9.50754C17.8672 9.35388 17.7987 9.2077 17.6792 9.11111C17.5417 9 17.2693 9 16.7244 9H9.43248L10.4325 1Z", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" }) }) });
 };
 var Bolt_default = Bolt;
 export {
@@ -2104,6 +2130,7 @@ export {
   Fold_default as Fold,
   FreeCreation_default as FreeCreation,
   Fullscreen_default as Fullscreen,
+  GLM_default as GLM,
   Game_default as Game,
   Gemini_default as Gemini,
   GeneralFile_default as GeneralFile,
@@ -2147,6 +2174,7 @@ export {
   Mcp1_default as Mcp1,
   Media_default as Media,
   MessageSmile_default as MessageSmile,
+  Minimax_default as Minimax,
   ModelProvider_default as ModelProvider,
   More_default as More,
   Mouse_default as Mouse,
