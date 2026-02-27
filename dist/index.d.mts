@@ -59,8 +59,6 @@ declare const Thinking: React.FC<IconProps>;
 
 declare const Play: React.FC<IconProps>;
 
-declare const PlayOutline: React.FC<IconProps>;
-
 declare const Data: React.FC<IconProps>;
 
 declare const NewConversation: React.FC<IconProps>;
@@ -195,7 +193,7 @@ declare const ArrowRight: React.FC<IconProps>;
 
 declare const ArrowUp: React.FC<IconProps>;
 
-declare const AutoLayout: React.FC<IconProps>;
+declare const Autolayout: React.FC<IconProps>;
 
 declare const Back: React.FC<IconProps>;
 
@@ -207,7 +205,7 @@ declare const Checked: React.FC<IconProps>;
 
 declare const Claude: React.FC<IconProps>;
 
-declare const AddContext: React.FC<IconProps>;
+declare const Addcontext: React.FC<IconProps>;
 
 declare const Agent: React.FC<IconProps>;
 
@@ -217,188 +215,4 @@ declare const Video: React.FC<IconProps>;
 
 declare const Add: React.FC<IconProps>;
 
-declare const At: React.FC<IconProps>;
-
-declare const Audio: React.FC<IconProps>;
-
-declare const Close: React.FC<IconProps>;
-
-declare const Cuttools: React.FC<IconProps>;
-
-declare const Deepseek: React.FC<IconProps>;
-
-declare const Doc: React.FC<IconProps>;
-
-declare const Doc1: React.FC<IconProps>;
-
-declare const Excel: React.FC<IconProps>;
-
-declare const File: React.FC<IconProps>;
-
-declare const File1: React.FC<IconProps>;
-
-declare const GeneralFile: React.FC<IconProps>;
-
-declare const GeneralWeb: React.FC<IconProps>;
-
-declare const Github: React.FC<IconProps>;
-
-declare const Google: React.FC<IconProps>;
-
-declare const Gpt: React.FC<IconProps>;
-
-declare const Grok: React.FC<IconProps>;
-
-declare const Html: React.FC<IconProps>;
-
-declare const WinRight: React.FC<IconProps>;
-
-declare const WinLeft: React.FC<IconProps>;
-
-declare const View: React.FC<IconProps>;
-
-declare const Usage: React.FC<IconProps>;
-
-declare const Tag: React.FC<IconProps>;
-
-declare const Remix: React.FC<IconProps>;
-
-declare const Preview: React.FC<IconProps>;
-
-declare const Magiccursor: React.FC<IconProps>;
-
-declare const MagiccursorDefault: React.FC<IconProps>;
-
-declare const Location: React.FC<IconProps>;
-
-declare const List: React.FC<IconProps>;
-
-declare const Keyboard: React.FC<IconProps>;
-
-declare const Invite: React.FC<IconProps>;
-
-declare const Group: React.FC<IconProps>;
-
-declare const Fold: React.FC<IconProps>;
-
-declare const FinderOpen: React.FC<IconProps>;
-
-declare const FinderClose: React.FC<IconProps>;
-
-declare const Export: React.FC<IconProps>;
-
-declare const DocInline: React.FC<IconProps>;
-
-declare const Creation: React.FC<IconProps>;
-
-declare const Finished: React.FC<IconProps>;
-
-declare const TextFile: React.FC<IconProps>;
-
-declare const PptFile: React.FC<IconProps>;
-
-declare const OrgFile: React.FC<IconProps>;
-
-declare const CodeZip: React.FC<IconProps>;
-
-declare const Generating: React.FC<IconProps>;
-
-declare const Edit1: React.FC<IconProps>;
-
-declare const Market: React.FC<IconProps>;
-
-declare const Provider: React.FC<IconProps>;
-
-declare const AIModel: React.FC<IconProps>;
-
-declare const Ppt: React.FC<IconProps>;
-
-declare const Exit: React.FC<IconProps>;
-
-declare const Contact: React.FC<IconProps>;
-
-declare const Websearch: React.FC<IconProps>;
-
-declare const Text: React.FC<IconProps>;
-
-declare const Stop: React.FC<IconProps>;
-
-declare const Sort: React.FC<IconProps>;
-
-declare const Send: React.FC<IconProps>;
-
-declare const Ppt1: React.FC<IconProps>;
-
-declare const Pdf: React.FC<IconProps>;
-
-declare const Media: React.FC<IconProps>;
-
-declare const Mcp: React.FC<IconProps>;
-
-declare const Mcp1: React.FC<IconProps>;
-
-declare const Image: React.FC<IconProps>;
-
-declare const ImageOutline: React.FC<IconProps>;
-
-declare const Running1: React.FC<IconProps>;
-
-declare const Email: React.FC<IconProps>;
-
-declare const Subline: React.FC<IconProps>;
-
-declare const Refresh: React.FC<IconProps>;
-
-declare const Doc2: React.FC<IconProps>;
-
-declare const Text1: React.FC<IconProps>;
-
-declare const X: React.FC<IconProps>;
-
-declare const XBorder: React.FC<IconProps>;
-
-declare const SortAsc: React.FC<IconProps>;
-
-declare const DocAdd: React.FC<IconProps>;
-
-declare const DocChecked: React.FC<IconProps>;
-
-declare const Email2: React.FC<IconProps>;
-
-declare const Time: React.FC<IconProps>;
-
-declare const Home: React.FC<IconProps>;
-
-declare const CheckCircleBroken: React.FC<IconProps>;
-
-declare const MessageSmile: React.FC<IconProps>;
-
-declare const ResourceFilled: React.FC<IconProps>;
-
-declare const SadFace: React.FC<IconProps>;
-
-declare const StopCircle: React.FC<IconProps>;
-
-declare const Substrsct: React.FC<IconProps>;
-
-declare const TurnRight: React.FC<IconProps>;
-
-declare const UserInput: React.FC<IconProps>;
-
-declare const Kimi: React.FC<IconProps>;
-
-declare const MarketPlace: React.FC<IconProps>;
-
-declare const Notification: React.FC<IconProps>;
-
-declare const Qwen: React.FC<IconProps>;
-
-declare const GLM: React.FC<IconProps>;
-
-declare const Minimax: React.FC<IconProps>;
-
-declare const CheckCircle: React.FC<IconProps>;
-
-declare const Bolt: React.FC<IconProps>;
-
-export { AIModel, Account, Add, AddContext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, At, Attachment, Audio, AutoLayout, Back, Bolt, Building, Cancelled, Chat, CheckCircle, CheckCircleBroken, Checked, Claude, Clone, Close, Code, Code1, CodeZip, Community, Completed, Computer, Contact, Copy, Creadit, Creation, Cuttools, Data, Deepseek, Delete, Delivery, DesignPattern, Doc, Doc1, Doc2, DocAdd, DocChecked, DocInline, Download, Edit, Edit1, EditSmart, Email, Email2, Excel, Exit, Export, File, File1, Finder, FinderClose, FinderOpen, Finished, Flow, Fold, FreeCreation, Fullscreen, GLM, Game, Gemini, GeneralFile, GeneralWeb, Generating, Github, Google, Gpt, Grok, Group, Hamburger, History, Home, Html, Icon, IconProps, Image, ImageOutline, InputContext, InterfaceDark, InterfaceLight, Invite, Jump, Keyboard, Kimi, Knowledge, KnowledgeBase, Labs, Language, LargeModel, List, Location, Logic, Magiccursor, MagiccursorDefault, Mail, Map, Markdown, Market, MarketPlace, Mcp, Mcp1, Media, MessageSmile, Minimax, ModelProvider, More, Mouse, NewConversation, Note, Note1, Notification, OrgFile, Output, Page, Parse, Pdf, Pending, Play, PlayOutline, Ppt, Ppt1, PptFile, Preview, Project, ProjectItem, Provider, Question, Qwen, Redo, Reference, Refly, Refresh, Reload, Reloadto, Remix, Resource, ResourceFilled, Running, Running1, SadFace, ScreenDefault, ScreenFull, Search, Security, Send, Setting, Settings, Share, SideLeft, SideRight, Sort, SortAsc, Sport, Start, Stop, StopCircle, SubNode, Subline, Subscription, Substrsct, Tag, Text, Text1, TextFile, Thinking, Time, Tools, Touchpad, Travel, Treemenu, TurnRight, Undo, University, Upgrade, Usage, UserInput, Video, View, Wait, Weather, Web, Web1, Websearch, Wiki, WinLeft, WinRight, X, XBorder, ZoomIn, ZoomOut };
+export { Account, Add, Addcontext, Agent, AiChat, Appearance, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Attachment, Autolayout, Back, Building, Cancelled, Chat, Checked, Claude, Clone, Code, Code1, Community, Completed, Computer, Copy, Creadit, Data, Delete, Delivery, DesignPattern, Download, Edit, EditSmart, Finder, Flow, FreeCreation, Fullscreen, Game, Gemini, Hamburger, History, Icon, IconProps, InputContext, InterfaceDark, InterfaceLight, Jump, Knowledge, KnowledgeBase, Labs, Language, LargeModel, Logic, Mail, Map, Markdown, ModelProvider, More, Mouse, NewConversation, Note, Note1, Output, Page, Parse, Pending, Play, Project, ProjectItem, Question, Redo, Reference, Refly, Reload, Reloadto, Resource, Running, ScreenDefault, ScreenFull, Search, Security, Setting, Settings, Share, SideLeft, SideRight, Sport, Start, SubNode, Subscription, Thinking, Tools, Touchpad, Travel, Treemenu, Undo, University, Upgrade, Video, Wait, Weather, Web, Web1, Wiki, ZoomIn, ZoomOut };
